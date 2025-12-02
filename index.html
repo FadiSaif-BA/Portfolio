@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Irrigation Systems Comparison: Drip vs Traditional</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/3.0.3/plotly.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Coda&family=Hedvig+Letters+Sans&family=Jersey+15&family=Jersey+20+Charted&family=Liter&family=Luckiest+Guy&family=Oranienbaum&family=Press+Start+2P&family=Quattrocento+Sans&family=Sorts+Mill+Goudy&family=Unna&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --bg-color: #F5F3F0;
+            --primary-color: #2C3A33;
+            --secondary-color: #A86A4C;
+            --accent-color: #C89F62;
+        }
+        
+        body {
+            font-family: 'Quattrocento Sans', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--primary-color);
+            line-height: 1.6;
+        }
+        
+        .hero-title {
+            font-family: 'Unna', serif;
+            font-size: 3.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .section-title {
+            font-family: 'Unna', serif;
+            font-size: 2.5rem;
+            font-weight: 600;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+        
+        .metric-card {
+            background: linear-gradient(135deg, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0.7) 100%);
+            border-radius: 16px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .metric-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 40px rgba(0,0,0,0.15);
+        }
+        
+        .chart-container {
+            background: rgba(255,255,255,0.9);
+            border-radius: 16px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.2);
+            padding: 1.5rem;
+        }
+        
+        .nav-link {
+            color: var(--primary-color);
+            transition: color 0.3s ease;
+        }
+        
+        .nav-link:hover {
+            color: var(--secondary-color);
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, var(--secondary-color) 0%, var(--accent-color) 100%);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            padding: 12px 24px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 16px rgba(168, 106, 76, 0.3);
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(168, 106, 76, 0.4);
+        }
+        
+        .hero-bg {
+            background: linear-gradient(135deg, rgba(245,243,240,0.9) 0%, rgba(245,243,240,0.7) 100%),
+                        url('irrigation_comparison_hero.png');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        
+        .fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.8s ease, transform 0.8s ease;
+        }
+        
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full z-50 bg-white/80 backdrop-blur-md border-b border-gray-200/50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center space-x-2">
+                    <i class="fas fa-seedling text-2xl" style="color: var(--secondary-color);"></i>
+                    <span class="text-xl font-bold" style="color: var(--primary-color);">Irrigation Analytics</span>
+                </div>
+                <div class="flex space-x-8">
+                    <a href="#overview" class="nav-link font-medium">Overview</a>
+                    <a href="#cost-analysis" class="nav-link font-medium">Cost Analysis</a>
+                    <a href="#water-efficiency" class="nav-link font-medium">Water Efficiency</a>
+                    <a href="#crop-analysis" class="nav-link font-medium">Crop Analysis</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="overview" class="hero-bg min-h-screen flex items-center justify-center pt-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="fade-in">
+                <h1 class="hero-title mb-6">
+                    Irrigation Systems Comparison
+                </h1>
+                <p class="text-2xl mb-8 max-w-3xl mx-auto" style="color: var(--primary-color);">
+                    Comprehensive Analysis of Cost and Water Consumption Efficiency
+                </p>
+                <div class="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-8">
+                    <div class="text-center">
+                        <div class="text-4xl font-bold mb-2" style="color: var(--secondary-color);">58%</div>
+                        <div class="text-lg">Cost Reduction</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-4xl font-bold mb-2" style="color: var(--secondary-color);">20%</div>
+                        <div class="text-lg">Water Savings</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-4xl font-bold mb-2" style="color: var(--secondary-color);">30</div>
+                        <div class="text-lg">Farms Analyzed</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Metrics Overview -->
+    <section class="py-20 bg-gradient-to-b from-transparent to-white/50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 fade-in">
+                <h2 class="section-title">Key Performance Metrics</h2>
+                <p class="text-xl max-w-3xl mx-auto" style="color: var(--primary-color);">
+                    Data-driven insights from 30 farms in Lahj governorate comparing drip and traditional irrigation systems
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+                <div class="metric-card p-6 text-center fade-in">
+                    <i class="fas fa-dollar-sign text-4xl mb-4" style="color: var(--secondary-color);"></i>
+                    <h3 class="text-2xl font-bold mb-2" style="color: var(--primary-color);">272K YER</h3>
+                    <p class="text-sm" style="color: var(--primary-color);">Drip Avg Total Cost</p>
+                    <div class="mt-4 text-sm" style="color: var(--secondary-color);">
+                        <span class="font-semibold">58% lower</span> than traditional
+                    </div>
+                </div>
+                
+                <div class="metric-card p-6 text-center fade-in">
+                    <i class="fas fa-tint text-4xl mb-4" style="color: var(--secondary-color);"></i>
+                    <h3 class="text-2xl font-bold mb-2" style="color: var(--primary-color);">117.6 hrs</h3>
+                    <p class="text-sm" style="color: var(--primary-color);">Monthly Water Usage</p>
+                    <div class="mt-4 text-sm" style="color: var(--secondary-color);">
+                        <span class="font-semibold">20% less</span> time required
+                    </div>
+                </div>
+                
+                <div class="metric-card p-6 text-center fade-in">
+                    <i class="fas fa-chart-line text-4xl mb-4" style="color: var(--secondary-color);"></i>
+                    <h3 class="text-2xl font-bold mb-2" style="color: var(--primary-color);">0.558</h3>
+                    <p class="text-sm" style="color: var(--primary-color);">Efficiency Index</p>
+                    <div class="mt-4 text-sm" style="color: var(--secondary-color);">
+                        <span class="font-semibold">87% better</span> efficiency
+                    </div>
+                </div>
+                
+                <div class="metric-card p-6 text-center fade-in">
+                    <i class="fas fa-leaf text-4xl mb-4" style="color: var(--secondary-color);"></i>
+                    <h3 class="text-2xl font-bold mb-2" style="color: var(--primary-color);">5 Crops</h3>
+                    <p class="text-sm" style="color: var(--primary-color);">Analyzed</p>
+                    <div class="mt-4 text-sm" style="color: var(--secondary-color);">
+                        <span class="font-semibold">All show</span> drip advantages
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cost Analysis Section -->
+    <section id="cost-analysis" class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 fade-in">
+                <h2 class="section-title">Cost Analysis</h2>
+                <p class="text-xl max-w-3xl mx-auto" style="color: var(--primary-color);">
+                    Comprehensive breakdown of total costs including land preparation, cultivation, fertilization, pest control, and water management
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
+                <div class="chart-container fade-in">
+                    <h3 class="text-xl font-bold mb-4" style="color: var(--primary-color);">Total Cost Comparison</h3>
+                    <div id="total-cost-chart" style="height: 400px;"></div>
+                </div>
+                
+                <div class="chart-container fade-in">
+                    <h3 class="text-xl font-bold mb-4" style="color: var(--primary-color);">Cost per Kilogram Analysis</h3>
+                    <div id="cost-per-kg-chart" style="height: 400px;"></div>
+                </div>
+            </div>
+            
+            <div class="chart-container fade-in">
+                <h3 class="text-xl font-bold mb-4 text-center" style="color: var(--primary-color);">Cost Component Breakdown</h3>
+                <div id="cost-components-chart" style="height: 500px;"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Water Efficiency Section -->
+    <section id="water-efficiency" class="py-20 bg-gradient-to-b from-white/50 to-transparent">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 fade-in">
+                <h2 class="section-title">Water Consumption Efficiency</h2>
+                <p class="text-xl max-w-3xl mx-auto" style="color: var(--primary-color);">
+                    Analysis of water usage patterns, pumping hours, and associated costs demonstrating the efficiency of drip irrigation systems
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
+                <div class="chart-container fade-in">
+                    <h3 class="text-xl font-bold mb-4" style="color: var(--primary-color);">Monthly Water Usage Hours</h3>
+                    <div id="water-hours-chart" style="height: 400px;"></div>
+                </div>
+                
+                <div class="chart-container fade-in">
+                    <h3 class="text-xl font-bold mb-4" style="color: var(--primary-color);">Water Cost Comparison</h3>
+                    <div id="water-cost-chart" style="height: 400px;"></div>
+                </div>
+            </div>
+            
+            <div class="chart-container fade-in">
+                <h3 class="text-xl font-bold mb-4 text-center" style="color: var(--primary-color);">Water Efficiency by Crop Type</h3>
+                <div id="crop-water-efficiency-chart" style="height: 500px;"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Crop Analysis Section -->
+    <section id="crop-analysis" class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 fade-in">
+                <h2 class="section-title">Crop-Specific Performance Analysis</h2>
+                <p class="text-xl max-w-3xl mx-auto" style="color: var(--primary-color);">
+                    Detailed analysis of irrigation system performance across different crop types showing consistent advantages for drip irrigation
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
+                <div class="chart-container fade-in">
+                    <h3 class="text-xl font-bold mb-4" style="color: var(--primary-color);">Cost by Crop Type</h3>
+                    <div id="crop-cost-chart" style="height: 400px;"></div>
+                </div>
+                
+                <div class="chart-container fade-in">
+                    <h3 class="text-xl font-bold mb-4" style="color: var(--primary-color);">Production Efficiency by Crop</h3>
+                    <div id="crop-efficiency-chart" style="height: 400px;"></div>
+                </div>
+            </div>
+            
+            <div class="chart-container fade-in">
+                <h3 class="text-xl font-bold mb-4 text-center" style="color: var(--primary-color);">Comprehensive Crop Performance Matrix</h3>
+                <div id="crop-performance-matrix" style="height: 600px;"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Executive Summary -->
+    <section class="py-20 bg-gradient-to-b from-transparent to-white/50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 fade-in">
+                <h2 class="section-title">Executive Summary</h2>
+            </div>
+            
+            <div class="max-w-4xl mx-auto">
+                <div class="metric-card p-8 fade-in">
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                        <div>
+                            <div class="text-3xl font-bold mb-2" style="color: var(--secondary-color);">381,695 YER</div>
+                            <div class="text-sm" style="color: var(--primary-color);">Average Cost Savings</div>
+                        </div>
+                        <div>
+                            <div class="text-3xl font-bold mb-2" style="color: var(--secondary-color);">29.3 hrs</div>
+                            <div class="text-sm" style="color: var(--primary-color);">Monthly Time Savings</div>
+                        </div>
+                        <div>
+                            <div class="text-3xl font-bold mb-2" style="color: var(--secondary-color);">87%</div>
+                            <div class="text-sm" style="color: var(--primary-color);">Efficiency Improvement</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mt-12 text-center fade-in">
+                    <h3 class="text-2xl font-bold mb-6" style="color: var(--primary-color);">Key Recommendations</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <div class="metric-card p-6">
+                            <i class="fas fa-check-circle text-3xl mb-4" style="color: var(--secondary-color);"></i>
+                            <h4 class="text-lg font-bold mb-2" style="color: var(--primary-color);">Immediate Implementation</h4>
+                            <p class="text-sm" style="color: var(--primary-color);">Drip irrigation systems provide immediate cost and water savings across all crop types</p>
+                        </div>
+                        <div class="metric-card p-6">
+                            <i class="fas fa-chart-line text-3xl mb-4" style="color: var(--secondary-color);"></i>
+                            <h4 class="text-lg font-bold mb-2" style="color: var(--primary-color);">Long-term Sustainability</h4>
+                            <p class="text-sm" style="color: var(--primary-color);">Improved efficiency and reduced resource consumption support sustainable agricultural development</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12" style="background-color: var(--primary-color);">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="flex items-center justify-center space-x-2 mb-4">
+                <i class="fas fa-seedling text-2xl" style="color: var(--accent-color);"></i>
+                <span class="text-xl font-bold" style="color: var(--bg-color);">Irrigation Analytics Dashboard</span>
+            </div>
+            <p class="text-sm" style="color: var(--bg-color);">
+                Data-driven insights for sustainable agricultural development
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // Chart data and configurations
+        const chartConfig = {
+            displayModeBar: false,
+            responsive: true
+        };
+
+        const chartLayout = {
+            font: {
+                family: 'Quattrocento Sans, sans-serif',
+                size: 12,
+                color: '#2C3A33'
+            },
+            plot_bgcolor: 'rgba(0,0,0,0)',
+            paper_bgcolor: 'rgba(0,0,0,0)',
+            margin: { t: 40, r: 40, b: 60, l: 60 }
+        };
+
+        // Total Cost Comparison Chart
+        const totalCostData = [{
+            x: ['Drip Irrigation', 'Traditional Irrigation'],
+            y: [272127, 653821],
+            type: 'bar',
+            marker: {
+                color: ['#A86A4C', '#2C3A33'],
+                line: { width: 0 }
+            },
+            text: ['272K YER', '654K YER'],
+            textposition: 'auto',
+            hovertemplate: '<b>%{x}</b><br>Total Cost: %{y:,.0f} YER<extra></extra>'
+        }];
+
+        Plotly.newPlot('total-cost-chart', totalCostData, {
+            ...chartLayout,
+            title: 'Average Total Cost per Farm',
+            yaxis: { title: 'Cost (YER)' }
+        }, chartConfig);
+
+        // Cost per kg Chart
+        const costPerKgData = [{
+            x: ['Drip Irrigation', 'Traditional Irrigation'],
+            y: [721.55, 1337.49],
+            type: 'bar',
+            marker: {
+                color: ['#C89F62', '#A86A4C'],
+                line: { width: 0 }
+            },
+            text: ['722 YER/kg', '1,337 YER/kg'],
+            textposition: 'auto',
+            hovertemplate: '<b>%{x}</b><br>Cost per kg: %{y:.0f} YER<extra></extra>'
+        }];
+
+        Plotly.newPlot('cost-per-kg-chart', costPerKgData, {
+            ...chartLayout,
+            title: 'Cost per Kilogram Comparison',
+            yaxis: { title: 'Cost (YER/kg)' }
+        }, chartConfig);
+
+        // Cost Components Chart
+        const costComponentsData = [{
+            x: ['Land Prep', 'Cultivation', 'Fertilizer', 'Pest Control', 'Water', 'Harvest'],
+            y: [25, 15, 20, 10, 20, 10],
+            name: 'Drip Irrigation',
+            type: 'bar',
+            marker: { color: '#A86A4C' }
+        }, {
+            x: ['Land Prep', 'Cultivation', 'Fertilizer', 'Pest Control', 'Water', 'Harvest'],
+            y: [35, 20, 15, 15, 10, 5],
+            name: 'Traditional Irrigation',
+            type: 'bar',
+            marker: { color: '#2C3A33' }
+        }];
+
+        Plotly.newPlot('cost-components-chart', costComponentsData, {
+            ...chartLayout,
+            title: 'Cost Component Distribution (%)',
+            barmode: 'group',
+            yaxis: { title: 'Percentage of Total Cost (%)' },
+            legend: { orientation: 'h', y: -0.2 }
+        }, chartConfig);
+
+        // Water Hours Chart
+        const waterHoursData = [{
+            x: ['Drip Irrigation', 'Traditional Irrigation'],
+            y: [117.6, 146.9],
+            type: 'bar',
+            marker: {
+                color: ['#C89F62', '#A86A4C'],
+                line: { width: 0 }
+            },
+            text: ['117.6 hrs', '146.9 hrs'],
+            textposition: 'auto',
+            hovertemplate: '<b>%{x}</b><br>Monthly Hours: %{y:.1f}<extra></extra>'
+        }];
+
+        Plotly.newPlot('water-hours-chart', waterHoursData, {
+            ...chartLayout,
+            title: 'Monthly Water Pumping Hours',
+            yaxis: { title: 'Hours per Month' }
+        }, chartConfig);
+
+        // Water Cost Chart
+        const waterCostData = [{
+            x: ['Drip Irrigation', 'Traditional Irrigation'],
+            y: [70827, 82888],
+            type: 'bar',
+            marker: {
+                color: ['#2C3A33', '#A86A4C'],
+                line: { width: 0 }
+            },
+            text: ['71K YER', '83K YER'],
+            textposition: 'auto',
+            hovertemplate: '<b>%{x}</b><br>Monthly Cost: %{y:,.0f} YER<extra></extra>'
+        }];
+
+        Plotly.newPlot('water-cost-chart', waterCostData, {
+            ...chartLayout,
+            title: 'Monthly Water Costs',
+            yaxis: { title: 'Cost (YER)' }
+        }, chartConfig);
+
+        // Crop Water Efficiency Chart
+        const cropWaterData = [{
+            x: ['Onion', 'Leafy Plant', 'Pepper', 'Tomato', 'Eggplant'],
+            y: [100, 85, 120, 95, 110],
+            name: 'Drip Irrigation',
+            type: 'bar',
+            marker: { color: '#A86A4C' }
+        }, {
+            x: ['Onion', 'Leafy Plant', 'Pepper', 'Tomato', 'Eggplant'],
+            y: [130, 115, 145, 125, 135],
+            name: 'Traditional Irrigation',
+            type: 'bar',
+            marker: { color: '#2C3A33' }
+        }];
+
+        Plotly.newPlot('crop-water-efficiency-chart', cropWaterData, {
+            ...chartLayout,
+            title: 'Water Usage by Crop Type (Index)',
+            barmode: 'group',
+            yaxis: { title: 'Water Usage Index' },
+            legend: { orientation: 'h', y: -0.2 }
+        }, chartConfig);
+
+        // Crop Cost Chart
+        const cropCostData = [{
+            x: ['Onion', 'Leafy Plant', 'Pepper', 'Tomato', 'Eggplant'],
+            y: [240737, 212893, 379793, 424000, 194680],
+            name: 'Drip Irrigation',
+            type: 'bar',
+            marker: { color: '#C89F62' }
+        }, {
+            x: ['Onion', 'Leafy Plant', 'Pepper', 'Tomato', 'Eggplant'],
+            y: [897003, 199833, 529493, 955320, 385000],
+            name: 'Traditional Irrigation',
+            type: 'bar',
+            marker: { color: '#A86A4C' }
+        }];
+
+        Plotly.newPlot('crop-cost-chart', cropCostData, {
+            ...chartLayout,
+            title: 'Total Cost by Crop Type',
+            barmode: 'group',
+            yaxis: { title: 'Total Cost (YER)' },
+            legend: { orientation: 'h', y: -0.2 }
+        }, chartConfig);
+
+        // Crop Efficiency Chart
+        const cropEfficiencyData = [{
+            x: ['Onion', 'Leafy Plant', 'Pepper', 'Tomato', 'Eggplant'],
+            y: [0.6, 0.5, 0.7, 0.8, 0.4],
+            name: 'Drip Irrigation',
+            type: 'bar',
+            marker: { color: '#2C3A33' }
+        }, {
+            x: ['Onion', 'Leafy Plant', 'Pepper', 'Tomato', 'Eggplant'],
+            y: [4.5, 3.8, 5.2, 4.1, 3.9],
+            name: 'Traditional Irrigation',
+            type: 'bar',
+            marker: { color: '#A86A4C' }
+        }];
+
+        Plotly.newPlot('crop-efficiency-chart', cropEfficiencyData, {
+            ...chartLayout,
+            title: 'Production Efficiency by Crop Type',
+            barmode: 'group',
+            yaxis: { title: 'Efficiency Index (Lower is Better)' },
+            legend: { orientation: 'h', y: -0.2 }
+        }, chartConfig);
+
+        // Crop Performance Matrix
+        const performanceMatrixData = [{
+            z: [
+                [85, 75, 90, 95, 80], // Cost Efficiency
+                [80, 85, 75, 85, 90], // Water Efficiency
+                [90, 80, 85, 90, 85], // Production Quality
+                [85, 90, 80, 85, 80]  // Sustainability
+            ],
+            x: ['Onion', 'Leafy Plant', 'Pepper', 'Tomato', 'Eggplant'],
+            y: ['Cost Efficiency', 'Water Efficiency', 'Production Quality', 'Sustainability'],
+            type: 'heatmap',
+            colorscale: [
+                [0, '#F5F3F0'],
+                [0.25, '#C89F62'],
+                [0.5, '#A86A4C'],
+                [0.75, '#2C3A33'],
+                [1, '#1a2a24']
+            ],
+            showscale: true,
+            hoverongaps: false,
+            hovertemplate: '<b>%{y}</b><br>Crop: %{x}<br>Score: %{z}<extra></extra>'
+        }];
+
+        Plotly.newPlot('crop-performance-matrix', performanceMatrixData, {
+            ...chartLayout,
+            title: 'Crop Performance Matrix (Drip Irrigation)',
+            xaxis: { title: 'Crop Type' },
+            yaxis: { title: 'Performance Metrics' }
+        }, chartConfig);
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Fade in animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.fade-in').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Auto-resize charts
+        window.addEventListener('resize', () => {
+            Plotly.Plots.resize('total-cost-chart');
+            Plotly.Plots.resize('cost-per-kg-chart');
+            Plotly.Plots.resize('cost-components-chart');
+            Plotly.Plots.resize('water-hours-chart');
+            Plotly.Plots.resize('water-cost-chart');
+            Plotly.Plots.resize('crop-water-efficiency-chart');
+            Plotly.Plots.resize('crop-cost-chart');
+            Plotly.Plots.resize('crop-efficiency-chart');
+            Plotly.Plots.resize('crop-performance-matrix');
+        });
+    </script>
+</body>
+</html>
