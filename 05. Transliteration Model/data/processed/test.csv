@@ -1,0 +1,445 @@
+arabic_name,english_name,source,original_arabic,original_english,arabic_normalized,english_cleaned,arabic_length,english_length
+بني حجاج,Bani Hajjaj,split,بني حجاج - الوطيف,Bani Hajjaj - Al-Watif,بني حجاج,Bani Hajjaj,8,11
+القلعه,Al-Qal'a,split,الطوير - القلعه,Al-Tuwair - Al-Qal'a,القلعه,Al-Qal'a,6,8
+الحيدريه,Al-Haydariya,split,الكدحه - الحيدريه,Al-Kadha - Al-Haydariya,الحيدريه,Al-Haydariya,8,12
+شعب سباء,Sha'b Saba',split,بني مليك - شعب سباء,Bani Malik - Sha'b Saba',شعب سباء,Sha'b Saba',8,11
+العدف,Al-Adaf,split,بني مليك - العدف,Bani Malik - Al-Adaf,العدف,Al-Adaf,5,7
+القحفه,Al-Qahfa,split,غيل الحاضنه - القحفه,Ghayl Al-Hadina - Al-Qahfa,القحفه,Al-Qahfa,6,8
+الكدمه,Al-Kadmah,split,الكدمه - الحوجب,Al-Kadmah - Al-Hawjab,الكدمه,Al-Kadmah,6,9
+المليحه,Al-Malihah,split,محاطبه - المليحه,Mahatabah - Al-Malihah,المليحه,Al-Malihah,7,10
+النخيله,Al-Nakhilah,split,الصنمه - النخيله,Al-Sunmah - Al-Nakhilah,النخيله,Al-Nakhilah,7,11
+البحيح,Al-Bahih,original,,,البحيح,Al-Bahih,6,8
+السلايم,Al-Salayim,split,شعبو - السلايم,Sha'bu - Al-Salayim,السلايم,Al-Salayim,7,10
+المدهف,Al-Madhaf,split,وادي مكسب - المدهف,Wadi Makasab - Al-Madhaf,المدهف,Al-Madhaf,6,9
+الركز,al-Rukz,split,الركز - شعب سويلم,al-Rukz - Sha'b Suwaylim,الركز,al-Rukz,5,7
+مبتعه,Mubta'a,original,,,مبتعه,Mubta'a,5,7
+القوز,Al-Qawz,split,الكدمه - القوز,Al-Kadmah - Al-Qawz,القوز,Al-Qawz,5,7
+حصيب القوبه,Hasib Al-Qubbah,original,,,حصيب القوبه,Hasib Al-Qubbah,11,15
+حسي بن علوان,Hassi Bin Alwan,split,حسي بن علوان - سيلة الهدينه,Hassi Bin Alwan - Saylat Al-Hadina,حسي بن علوان,Hassi Bin Alwan,12,15
+حسي بن علوان,Hassi Bin Alwan,split,حسي بن علوان - القطنة,Hassi Bin Alwan - Al-Qatna,حسي بن علوان,Hassi Bin Alwan,12,15
+العفيرة,Al-Afira,split,العفيرة - الجويح,Al-Afira - Al-Juwayh,العفيرة,Al-Afira,7,8
+الردف,Al-Radf,split,الردف - الرحية,Al-Radf - Al-Rahiyah,الردف,Al-Radf,5,7
+الرباعنه,Al-Raba'nah,split,الرباعنه - المجزع,Al-Raba'nah - Al-Majza',الرباعنه,Al-Raba'nah,8,11
+الاشعاب,al-Ash'ab,split,وادي سعاده - الاشعاب,Wadi Sa'adah - al-Ash'ab,الاشعاب,al-Ash'ab,7,9
+المهجم الاسفل,Al-Mahjam Al-Asfal,split,الحجيره - المهجم الاسفل,Al-Hujayrah - Al-Mahjam Al-Asfal,المهجم الاسفل,Al-Mahjam Al-Asfal,13,18
+الاقروض - العدنين,Al-Aqrouth -Al-Adnin,original,,,الاقروض - العدنين,Al-Aqrouth -Al-Adnin,17,20
+الهاملي,Al-Hamli,split,الهاملي - الغله,Al-Hamli - Al-Ghalah,الهاملي,Al-Hamli,7,8
+حجفت,Hajfat,split,وادي مكسب - حجفت,Wadi Makasab - Hajfat,حجفت,Hajfat,4,6
+شعب المقعد,Sha'b Al-Maq'ad,split,الشقيراء - شعب المقعد,Al-Shaqira' - Sha'b Al-Maq'ad,شعب المقعد,Sha'b Al-Maq'ad,10,15
+محاطبه,Mahatabah,split,محاطبه - الاشوع,Mahatabah - Al-Ashwa',محاطبه,Mahatabah,6,9
+شعبو,Sha'bu,split,شعبو - الفقا,Sha'bu - Al-Faqa,شعبو,Sha'bu,4,6
+جحزر,Jahzar,split,جحزر - المقصع,Jahzar - Al-Maqsa',جحزر,Jahzar,4,6
+المحرقى,Al-Mahraqi,split,الزغبري - المحرقى,Al-Zaghbari - Al-Mahraqi,المحرقى,Al-Mahraqi,7,10
+الكدحه,Al-Kadha,split,الكدحه - حدبه نقيط,Al-Kadha - Hadbah Naqit,الكدحه,Al-Kadha,6,8
+الطفيلي,al-Tufaili,split,جبل الحكيمه - الطفيلي,Jabal al-Hakimah - al-Tufaili,الطفيلي,al-Tufaili,7,10
+المراوشة,Al-Marawsha,split,نوبة عامر - المراوشة,Nawbat Amer - Al-Marawsha,المراوشة,Al-Marawsha,8,11
+الصـويره - الكــدم,Al-Sawerah-Al-Kadm,original,,,الصويره - الكدم,Al-Sawerah-Al-Kadm,15,18
+جحزر,Jahzar,split,جحزر - البيرك,Jahzar - al-Birk,جحزر,Jahzar,4,6
+هوب مجلي,Hub Majli,split,الحييمة - هوب مجلي,Al-Haymah - Hub Majli,هوب مجلي,Hub Majli,8,9
+السويهره - الجوبر,Al Suwayhira -Al-Jawbar,original,,,السويهره - الجوبر,Al Suwayhira -Al-Jawbar,17,23
+الطليله,Al-Talilah,split,الطليله - حصيب طليل,Al-Talilah - Hasib Talil,الطليله,Al-Talilah,7,10
+هيجة ناصر,Hayjah Nasir,split,وادي موثب - هيجة ناصر,Wadi Muthab - Hayjah Nasir,هيجة ناصر,Hayjah Nasir,9,12
+الشعيب,Al-Shuaib,split,الشعيب - اكمة عثيمان,Al-Shuaib - Akmat Uthayman,الشعيب,Al-Shuaib,6,9
+السفالية,Al-Safaliyah,split,السفالية - المراعنه,Al-Safaliyah - Al-Mara'inah,السفالية,Al-Safaliyah,8,12
+الصنمه,Al-Sunmah,split,الصنمه - الهنيب,Al-Sunmah - Al-Hunayb,الصنمه,Al-Sunmah,6,9
+الرجمه,Al-Rajmah,original,,,الرجمه,Al-Rajmah,6,9
+الهديلة,Al-Hadila,split,الزغبري - الهديلة,Al-Zaghbari - Al-Hadila,الهديلة,Al-Hadila,7,9
+الهشمه,Al-Hashma,split,النشيفه - الهشمه,An-Nashifa - Al-Hashma,الهشمه,Al-Hashma,6,9
+النزيهه,Al-Nuzayhah,split,وادي مكسب - النزيهه,Wadi Makasab - Al-Nuzayhah,النزيهه,Al-Nuzayhah,7,11
+الموسنه,Al-Musinah,split,الموسنه - الطاهري,Al-Musinah - Al-Tahir,الموسنه,Al-Musinah,7,10
+الحدابه,Al-Hadaba,split,الشبارة - الحدابه,Al-Shabara - Al-Hadaba,الحدابه,Al-Hadaba,7,9
+الشقيراء,Al-Shuqayra,split,الشقيراء - البطحه,Al-Shuqayra - Al-Bat'hah,الشقيراء,Al-Shuqayra,8,11
+الراس,Al-Ras,split,مقدم راس - الراس,Muqaddam Ras - Al-Ras,الراس,Al-Ras,5,6
+السويهره,Al Suwayhira,split,السويهره - البارز,Al Suwayhira - Al-barez,السويهره,Al Suwayhira,8,12
+وادي البير,Wadi Al-Bir,split,وادي البير - محقنه,Wadi Al-Bir - Mahqana,وادي البير,Wadi Al-Bir,10,11
+حنه السفلى,Hannah Al-Sufla,split,حنه السفلى - الخضيراء,Hannah Al-Sufla - Al-Khadhira,حنه السفلى,Hannah Al-Sufla,10,15
+الجدل,Al-Jadal,split,رهبه - الجدل,Rahbah - Al-Jadal,الجدل,Al-Jadal,5,8
+الحافه,Al-Hafa,split,وادي البير - الحافه,Wadi Al-Bir - Al-Hafa,الحافه,Al-Hafa,6,7
+السويهره,Al-Suwayhirah,split,السويهره - الحصيب,Al-Suwayhirah - Al-Hasib,السويهره,Al-Suwayhirah,8,13
+الرباعنه,Al-Raba'nah,split,الرباعنه - الغارب,Al-Raba'nah - Al-Gharib,الرباعنه,Al-Raba'nah,8,11
+القحيزه,al-Qahizah,split,القحيزه - البيضاء,al-Qahizah - al-Bayda',القحيزه,al-Qahizah,7,10
+الشبابية,Al-Shababiyah,split,حسي سالم - الشبابية,Hassi Salem - Al-Shababiyah,الشبابية,Al-Shababiyah,8,13
+الازيود,Al-Azyoud,split,الازيود - الشويكة,Al-Azyoud - Al-Shuwayka,الازيود,Al-Azyoud,7,9
+الخدمات,Al-Khadamat,split,رهبه - الخدمات,Rahbah - Al-Khadamat,الخدمات,Al-Khadamat,7,11
+المدينة,Al-Madinah,split,المخاء - المدينة,Al-Mukha - Al-Madinah,المدينة,Al-Madinah,7,10
+السويطي,al-Suwayti,split,حاضيه - السويطي,Hadhiyah - al-Suwayti,السويطي,al-Suwayti,7,10
+شعبو,Sha'bu,split,شعبو - العماصي,Sha'bu - Al-Amasi,شعبو,Sha'bu,4,6
+الشبع,Al-Shaba,split,الجريب - الشبع,Al-Jarib - Al-Shaba,الشبع,Al-Shaba,5,8
+داجنه,Dajnah,split,السويداء - داجنه,Al-Suwayda' - Dajnah,داجنه,Dajnah,5,6
+العريش,Al-Arish,split,العريش - المجش,Al-Arish - Al-Majash,العريش,Al-Arish,6,8
+الصفريه,Al-Safriya,split,الغيل - الصفريه,Al-Ghayl - Al-Safriya,الصفريه,Al-Safriya,7,10
+الضوضحـي,al-Dawdhahi,split,بني مليك - الضوضحـي,Bani Malik - al-Dawdhahi,الضوضحي,al-Dawdhahi,7,11
+حصب الحويج,Hasab Al-Huwayj,split,العقمه - حصب الحويج,Al-Aqmah - Hasab Al-Huwayj,حصب الحويج,Hasab Al-Huwayj,10,15
+النشيفه,An-Nashifa,split,النشيفه - الملطه,An-Nashifa - Al-Malta,النشيفه,An-Nashifa,7,10
+جبل الصبري,Jabal al-Sabri,split,بني عامر - جبل الصبري,Bani Amer - Jabal al-Sabri,جبل الصبري,Jabal al-Sabri,10,14
+المفرق,Al-Mafraq,split,العريش - المفرق,Al-Arish - Al-Mafraq,المفرق,Al-Mafraq,6,9
+العريش,Al-Arish,split,العريش - الحرزه,Al-Arish - Al-Harzah,العريش,Al-Arish,6,8
+شعبو,Sha'bu,split,شعبو - النجيب,Sha'bu - Al-Najib,شعبو,Sha'bu,4,6
+الغرافي,Al-Gharrafi,split,الغرافي - الحبشة,Al-Gharrafi - Al-Habasha,الغرافي,Al-Gharrafi,7,11
+الكديحة,Al-Kadiha,split,الكديحة - طنح,Al-Kadiha - Tanh,الكديحة,Al-Kadiha,7,9
+المحجر,Al-Mahjar,split,القشعه - المحجر,Al-Qash'ah - Al-Mahjar,المحجر,Al-Mahjar,6,9
+جحزر,Jahzar,split,جحزر - ودن الزبيدى,Jahzar - Wadan al-Zubaidi,جحزر,Jahzar,4,6
+المجزع,Al-Majza',split,العفيرة - المجزع,Al-Afira - Al-Majza',المجزع,Al-Majza',6,9
+الحصينه,Al-Husaynah,split,الهاملي - الحصينه,Al-Hamli - Al-Husaynah,الحصينه,Al-Husaynah,7,11
+الجمعة,Al-Jum'ah,split,الجمعة - الغاوى,Al-Jum'ah - Al-Ghawy,الجمعة,Al-Jum'ah,6,9
+الخظراء,Al-Khadhra',split,حسي سالم - الخظراء,Hassi Salem - Al-Khadhra',الخظراء,Al-Khadhra',7,11
+الغيل,Al-Ghayl,split,الغيل - الصفريه,Al-Ghayl - Al-Safriya,الغيل,Al-Ghayl,5,8
+الحريق,Al-Hariq,split,بني الحكم - الحريق,Bani Al-Hakam - Al-Hariq,الحريق,Al-Hariq,6,8
+الظهر,Al-Dhahr,split,الظهر - الظهرالاعلى,Al-Dhahr - Al-Dhahr Al-A'la,الظهر,Al-Dhahr,5,8
+طنح,Tanh,split,الكديحة - طنح,Al-Kadiha - Tanh,طنح,Tanh,3,4
+خرشبه,Kharshaba,split,مقبنه - خرشبه,Maqbanah - Kharshaba,خرشبه,Kharshaba,5,9
+البزيه,Al-Baziyah,split,الجريب - البزيه,Al-Jarib - Al-Baziyah,البزيه,Al-Baziyah,6,10
+الاتيمه,Al-Atima,split,الاتيمه - القحاره,Al-Atima - Al-Qahara,الاتيمه,Al-Atima,7,8
+الكربه,Al-Karbah,split,الكربه - القر,Al-Karbah - Al-Qar,الكربه,Al-Karbah,6,9
+الروبق,Al-Rawbaq,split,شبيه - الروبق,Shabih - Al-Rawbaq,الروبق,Al-Rawbaq,6,9
+المقيبره,Al-Muqaybira,split,بني جعفر - المقيبره,Bani Jaafar - Al-Muqaybira,المقيبره,Al-Muqaybira,8,12
+المسلوم,Al-Masloum,split,عسق - المسلوم,Asaq - Al-Masloum,المسلوم,Al-Masloum,7,10
+السويهره,Al Suwayhira,split,السويهره - الراكبه,Al Suwayhira - Al-rakbah,السويهره,Al Suwayhira,8,12
+بيت العميره,Bayt Al-'Amira,split,المقيصع - بيت العميره,Al-Muqaysi' - Bayt Al-'Amira,بيت العميره,Bayt Al-'Amira,11,14
+الزجا جية,al-Zajajiyah,split,حاضيه - الزجا جية,Hadhiyah - al-Zajajiyah,الزجا جية,al-Zajajiyah,9,12
+المقلب,Al-Maqlab,split,المقلب - الحويص,Al-Maqlab - Al-Huways,المقلب,Al-Maqlab,6,9
+الحضين,Al-Hadhin,split,الكويحه - الحضين,Al-Kuwayhah - Al-Hadhin,الحضين,Al-Hadhin,6,9
+المرقب,Al-Marqab,split,شبيه - المرقب,Shabih - Al-Marqab,المرقب,Al-Marqab,6,9
+المحيصب,Al-Muhaysib,split,العارضه - المحيصب,Al-'Arida - Al-Muhaysib,المحيصب,Al-Muhaysib,7,11
+السويداء,Al-Suwayda',split,السويداء - داجنه,Al-Suwayda' - Dajnah,السويداء,Al-Suwayda',8,11
+بني علي,Bani Ali,split,بني علي - شط الشامي,Bani Ali - Shat Al-Shami,بني علي,Bani Ali,7,8
+موزع,Mawza',split,موزع - السوق,Mawza' - Al-Souq,موزع,Mawza',4,6
+المناخ,Al-Manakh,split,العارضه - المناخ,Al-Ardah - Al-Manakh,المناخ,Al-Manakh,6,9
+اللجيعه السفلى,Al-Laji'ah Al-Sufla,split,شعبو - اللجيعه السفلى,Sha'bu - Al-Laji'ah Al-Sufla,اللجيعه السفلى,Al-Laji'ah Al-Sufla,14,19
+القطين,AL-Qateen,split,القطين - ذا العبار,AL-Qateen - Tha Al-Abar,القطين,AL-Qateen,6,9
+النشيم,Al-Nashim,split,الردف - النشيم,Al-Radf - Al-Nashim,النشيم,Al-Nashim,6,9
+الثوباني,Al-Thawbani,split,الثوباني - السفيدة,Al-Thawbani - Al-Safida,الثوباني,Al-Thawbani,8,11
+شط الغراب,Shat Al-Ghurab,split,الوحيز - شط الغراب,Al-Wahiz - Shat Al-Ghurab,شط الغراب,Shat Al-Ghurab,9,14
+الصنمه,Al-Sunmah,split,الصنمه - الغيزري,Al-Sunmah - Al-Ghayzari,الصنمه,Al-Sunmah,6,9
+بوميه,Bumiya,split,بوميه - المقصع,Bumiya - Al-Maqsa',بوميه,Bumiya,5,6
+السليع,Al-Sali',split,الازيود - السليع,Al-Azyoud - Al-Sali',السليع,Al-Sali',6,8
+الشرف,Al-Sharaf,split,بني حجاج - الشرف,Bani Hajjaj - Al-Sharaf,الشرف,Al-Sharaf,5,9
+الحنيشيه,Al-Hanishiya,split,جبل العمري - الحنيشيه,Jabal Al-Amri - Al-Hanishiya,الحنيشيه,Al-Hanishiya,8,12
+اكمة عبدول,Akmat Abdul,split,وادي البير - اكمة عبدول,Wadi Al-Bir - Akmat Abdul,اكمة عبدول,Akmat Abdul,10,11
+وادي بكير,Wadi Bakir,split,وادي بكير - الزهيب,Wadi Bakir - Al-Zuhayb,وادي بكير,Wadi Bakir,9,10
+المهيني,Al-Muhayni,split,وادي مكسب - المهيني,Wadi Makasab - Al-Muhayni,المهيني,Al-Muhayni,7,10
+محقنه,Mahqana,split,وادي البير - محقنه,Wadi Al-Bir - Mahqana,محقنه,Mahqana,5,7
+نجدالجرف,Najd Al-Jarf,split,النوازل - نجدالجرف,Al-Nawazil - Najd Al-Jarf,نجدالجرف,Najd Al-Jarf,8,12
+بني حجاج,Bani Hajjaj,split,بني حجاج - النجيد,Bani Hajjaj - Al-Najid,بني حجاج,Bani Hajjaj,8,11
+المقيصع,Al-Muqaysi',split,المقيصع - الحفيظه,Al-Muqaysi' - Al-Hafizah,المقيصع,Al-Muqaysi',7,11
+الغيل,Al-Ghayl,split,الغيل - الحجره,Al-Ghayl - Al-Hajra,الغيل,Al-Ghayl,5,8
+القاصب,Al-Qasib,split,الحياجي - القاصب,Al-Hayaji - Al-Qasib,القاصب,Al-Qasib,6,8
+المعابده,Al-Ma'abdah,split,الادروس - المعابده,Al-Adrous - Al-Ma'abdah,المعابده,Al-Ma'abdah,8,11
+الداخله,Al-Dakhilah,split,مقدم راس - الداخله,Muqaddam Ras - Al-Dakhilah,الداخله,Al-Dakhilah,7,11
+بني حجاج,Bani Hajjaj,split,بني حجاج - خذفان,Bani Hajjaj - Khadhfan,بني حجاج,Bani Hajjaj,8,11
+الازيود,Al-Azyoud,split,الازيود - الروينة,Al-Azyoud - Al-Ruwayna,الازيود,Al-Azyoud,7,9
+جريزه,Jariza,split,جريزه - السخينه,Jariza - Al-Sakhina,جريزه,Jariza,5,6
+المحابيه,Al-Mahabiya,split,مبتعه - المحابيه,Mubta'a - Al-Mahabiya,المحابيه,Al-Mahabiya,8,11
+البراح,Al-Barah,split,مقدم راس - البراح,Muqaddam Ras - Al-Barah,البراح,Al-Barah,6,8
+شعب قيس,Sha'b Qays,split,الشقيراء - شعب قيس,Al-Shuqayra - Sha'b Qays,شعب قيس,Sha'b Qays,7,10
+الرابصيه,Al-Rabsiya,split,الوحيز - الرابصيه,Al-Wahiz - Al-Rabsiya,الرابصيه,Al-Rabsiya,8,10
+الملصوب,Al-Malasub,split,جبل الحكيمه - الملصوب,Jabal Al-Hakimah - Al-Malasub,الملصوب,Al-Malasub,7,10
+محاطبه,Mahatabah,split,محاطبه - الهقين,Mahatabah - Al-Haqin,محاطبه,Mahatabah,6,9
+الشبارة,Al-Shabara,split,الشبارة - الحليصة,Al-Shabara - Al-Halisa,الشبارة,Al-Shabara,7,10
+الطفيلي,Al-Tufayli,split,الطفيلي - قبنه,Al-Tufayli - Qubnah,الطفيلي,Al-Tufayli,7,10
+رحنق,Rahnaq,split,العفيرة - رحنق,Al-Afirah - Rahnaq,رحنق,Rahnaq,4,6
+المغلاء,Al-Maghla,split,العقمه - المغلاء,Al-Aqmah - Al-Maghla,المغلاء,Al-Maghla,7,9
+الصناع,Al-Sina',split,يفرس - الصناع,Yafrus - Al-Sina',الصناع,Al-Sina',6,8
+الشرف,Al-Sharaf,split,القطنه - الشرف,Al-Qatna - Al-Sharaf,الشرف,Al-Sharaf,5,9
+الهتيكة,Al-Hatika,split,حسي سالم - الهتيكة,Hassi Salem - Al-Hatika,الهتيكة,Al-Hatika,7,9
+الجديدة,Al-Jadida,split,العارضه - الجديدة,Al-'Arida - Al-Jadida,الجديدة,Al-Jadida,7,9
+الضيجه,Al-Dhayjah,split,الضيجه - المشاجب,Al-Dhayjah - Al-Mashajeb,الضيجه,Al-Dhayjah,6,10
+الدوش,Al-Doush,split,الدوش - بيت سلوين,Al-Doush - Bayt Salwin,الدوش,Al-Doush,5,8
+الشبارة,Al-Shabara,split,الشبارة - العليلة,Al-Shabara - Al-Alila,الشبارة,Al-Shabara,7,10
+قناهو بن علي,Qanahu Bin Ali,original,,,قناهو بن علي,Qanahu Bin Ali,12,14
+الحياطة,Al-Hayata,split,الغرافي - الحياطة,Al-Gharrafi - Al-Hayata,الحياطة,Al-Hayata,7,9
+النازود,Al-Nazud,split,الصنمه - النازود,Al-Sunmah - Al-Nazud,النازود,Al-Nazud,7,8
+النشيفه,An-Nashifa,split,النشيفه - المعطاب الاسفل,An-Nashifa - Al-Ma'tab Al-Asfal,النشيفه,An-Nashifa,7,10
+الجرن,Al-Jurn,split,وادي مكسب - الجرن,Wadi Makasab - Al-Jurn,الجرن,Al-Jurn,5,7
+الاتيمه,Al-Atima,split,الاتيمه - الكنايه,Al-Atima - Al-Kinaya,الاتيمه,Al-Atima,7,8
+رهبه,Rahbah,split,رهبه - الحطبى,Rahbah - Al-Hatabi,رهبه,Rahbah,4,6
+القطنه,Al-Qatna,split,القطنه - رجحه الطور,Al-Qatna - Rajhat Al-Tour,القطنه,Al-Qatna,6,8
+القحفه,Al-Qahfa,split,النوازل - القحفه,Al-Nawazil - Al-Qahfa,القحفه,Al-Qahfa,6,8
+النوازل,Al-Nawazil,split,النوازل - الاكمة,Al-Nawazil - Al-Akma,النوازل,Al-Nawazil,7,10
+الطوير,Al-Tuwair,split,الطوير - الدهبليه,Al-Tuwair - Al-Dahbaliya,الطوير,Al-Tuwair,6,9
+حصب الطير,Hasab Al-Tayr,split,العارضه - حصب الطير,Al-Ardah - Hasab Al-Tayr,حصب الطير,Hasab Al-Tayr,9,13
+الاكمة,Al-Akma,split,القطنه - الاكمة,Al-Qatna - Al-Akma,الاكمة,Al-Akma,6,7
+الشاذلية,Al-Shadhiliyah,split,الشاذلية - البواكر,Al-Shadhiliyah - Al-Bawakir,الشاذلية,Al-Shadhiliyah,8,14
+الادروس,Al-Adrus,original,,,الادروس,Al-Adrus,7,8
+حصب حميدالمجزع,Hasab Hamid Al-Majza',split,الضيجه - حصب حميدالمجزع,Ad-Dhayjah - Hasab Hamid Al-Majza',حصب حميدالمجزع,Hasab Hamid Al-Majza',14,21
+مقدم راس,Muqaddam Ras,split,مقدم راس - المقشع,Muqaddam Ras - Al-Muqsha',مقدم راس,Muqaddam Ras,8,12
+الهاملي,Al-Hamli,original,,,الهاملي,Al-Hamli,7,8
+هيجة دويد,Hijah Duwaid,split,العارضه - هيجة دويد,Al-Ardah - Hijah Duwaid,هيجة دويد,Hijah Duwaid,9,12
+القطنه,Al-Qatna,split,القطنه - البيحاني,Al-Qatna - Al-Bayhani,القطنه,Al-Qatna,6,8
+الغوبقه,Al-Ghubaqah,split,الغوبقه - الحقيبه,Al-Ghubaqah - Al-Haqibah,الغوبقه,Al-Ghubaqah,7,11
+المعامرة,Al-Ma'amara,split,المعامرة - الذنبة,Al-Ma'amara - Al-Dhanba,المعامرة,Al-Ma'amara,8,11
+العرجوش,Al-Arjush,split,الغيل - العرجوش,Al-Ghayl - Al-Arjush,العرجوش,Al-Arjush,7,9
+الشاذلية,Al-Shadhiliyah,split,الشاذلية - السليمة,Al-Shadhiliyah - Al-Salima,الشاذلية,Al-Shadhiliyah,8,14
+المقلب,Al-Maqlab,split,المقلب - الوادي,Al-Maqlab - Al-Wadi,المقلب,Al-Maqlab,6,9
+شعب الوحشين,Sha'b Al-Wahshayn,split,المزانده - شعب الوحشين,Al-Mazanda - Sha'b Al-Wahshayn,شعب الوحشين,Sha'b Al-Wahshayn,11,17
+مكبر,Makbar,split,الصنمه - مكبر,Al-Sanmah - Makbar,مكبر,Makbar,4,6
+المخاء,Al-Mukha,split,المخاء - المدينة,Al-Mukha - Al-Madinah,المخاء,Al-Mukha,6,8
+المدينه السكنية,Residential City,split,الزهيرة - المدينه السكنية,Al-Zuhaira - Residential City,المدينه السكنية,Residential City,15,16
+الحرزه,Al-Harza,split,القطنه - الحرزه,Al-Qatna - Al-Harza,الحرزه,Al-Harza,6,8
+غيل الحاضنه,Ghayl Al-Hadina,split,غيل الحاضنه - القحفه,Ghayl Al-Hadina - Al-Qahfa,غيل الحاضنه,Ghayl Al-Hadina,11,15
+المبعوث,Al-Mab'outh,split,حسي سالم - المبعوث,Hassi Salem - Al-Mab'outh,المبعوث,Al-Mab'outh,7,11
+المزانده,Al-Mazanda,split,المزانده - شعب الوحشين,Al-Mazanda - Sha'b Al-Wahshayn,المزانده,Al-Mazanda,8,10
+شبيه,Shabih,split,شبيه - الرواس,Shabih - Al-Rawas,شبيه,Shabih,4,6
+الذاري,Al-Dhari,split,المعصرة - الذاري,Al-Ma'sara - Al-Dhari,الذاري,Al-Dhari,6,8
+يالول,Yalul,split,الجمعة - يالول,Al-Jum'ah - Yalul,يالول,Yalul,5,5
+الموسنه,Al-Musinah,split,الموسنه - الحميده,Al-Musinah - Al-Hamidah,الموسنه,Al-Musinah,7,10
+الحجج,Al-Hujaj,original,,,الحجج,Al-Hujaj,5,8
+العقمه,Al-Aqmah,split,العقمه - المضبايه,Al-Aqmah - Al-Madhbayah,العقمه,Al-Aqmah,6,8
+المقيصع,Al-Muqaysi',split,المقيصع - الهطيط,Al-Muqaysi' - Al-Hutayt,المقيصع,Al-Muqaysi',7,11
+الزغبري,Al-Zaghbari,split,الزغبري - المعاقم,Al-Zaghbari - Al-Ma'aqim,الزغبري,Al-Zaghbari,7,11
+الحياجي,Al-Hayaji,split,الحياجي - القاصب,Al-Hayaji - Al-Qasib,الحياجي,Al-Hayaji,7,9
+العضيلة,Al-Adhila,split,الشبارة - العضيلة,Al-Shabara - Al-Adhila,العضيلة,Al-Adhila,7,9
+حنه العليا,Hanna Al-Ulya,split,حنه العليا - الحبوه,Hanna Al-Ulya - Al-Habwa,حنه العليا,Hanna Al-Ulya,10,13
+العقمه,Al-Aqmah,split,العقمه - هيجة جبح,Al-Aqmah - Hayjah Jabh,العقمه,Al-Aqmah,6,8
+محجر راعى,Mahjar Ra'i,split,الازيود - محجر راعى,Al-Azyoud - Mahjar Ra'i,محجر راعى,Mahjar Ra'i,9,11
+الخسعه,Al-Khasa'a,split,الطوير - الخسعه,Al-Tuwair - Al-Khasa'a,الخسعه,Al-Khasa'a,6,10
+الرون,Al-Rawn,split,وادي الاحمر - الرون,Wadi Al-Ahmar - Al-Rawn,الرون,Al-Rawn,5,7
+الكويحه,Al-Kuwayhah,split,الكويحه - الذنيبه,Al-Kuwayhah - Al-Dhanibah,الكويحه,Al-Kuwayhah,7,11
+بني دريغم,Bani Drigham,split,بني دريغم - جرات,Bani Drigham - Jarat,بني دريغم,Bani Drigham,9,12
+الغرافي,Al-Gharrafi,split,الغرافي - البوالع,Al-Gharrafi - Al-Bawali,الغرافي,Al-Gharrafi,7,11
+طرة البرقعه,Tarrah Al-Burqa'ah,split,حصيب المهوق - طرة البرقعه,Hasib Al-Mahouq - Tarrah Al-Burqa'ah,طرة البرقعه,Tarrah Al-Burqa'ah,11,18
+حنه السفلى,Hannah Al-Sufla,split,حنه السفلى - المتين,Hannah Al-Sufla - Al-Mateen,حنه السفلى,Hannah Al-Sufla,10,15
+العقه,Al-Aqqa,original,,,العقه,Al-Aqqa,5,7
+المقيصع,Al-Muqaysi',split,المقيصع - القربة,Al-Muqaysi' - Al-Qurba,المقيصع,Al-Muqaysi',7,11
+الحريشة,Al-Harisha,split,نوبة عامر - الحريشة,Nawbat Amer - Al-Harisha,الحريشة,Al-Harisha,7,10
+القحيفـه,Al-Qahifa,split,العراعر - القحيفـه,Al-Ara'ir - Al-Qahifa,القحيفه,Al-Qahifa,7,9
+الرقع,Al-Ruqa',split,السويداء - الرقع,Al-Suwayda' - Al-Ruqa',الرقع,Al-Ruqa',5,8
+الاشوع,Al-Ashwa',split,محاطبه - الاشوع,Mahatabah - Al-Ashwa',الاشوع,Al-Ashwa',6,9
+المناخ,Al-Manakh,split,بني علي - المناخ,Bani Ali - Al-Manakh,المناخ,Al-Manakh,6,9
+الطريره,Al-Tarirah,split,القحفه - الطريره,Al-Qahfah - Al-Tarirah,الطريره,Al-Tarirah,7,10
+الحدابيه,Al-Hadabiyah,split,الحدابيه - الحدبه السفلى,Al-Hadabiyah - Al-Hadbah Al-Sufla,الحدابيه,Al-Hadabiyah,8,12
+العوينه,Al-Awaina,split,السويهره - العوينه,Al Suwayhira - Al-Awaina,العوينه,Al-Awaina,7,9
+الخضراء,Al-Khadra,split,السيمال - الخضراء,Al-Simal - Al-Khadra,الخضراء,Al-Khadra,7,9
+جاعمة,Ja'ma,split,الغرافي - جاعمة,Al-Gharrafi - Ja'ma,جاعمة,Ja'ma,5,5
+الحجافيه,Al-Hajafiyah,split,الحجافيه - جبل الدامر,Al-Hajafiyah - Jabal Al-Damir,الحجافيه,Al-Hajafiyah,8,12
+حسي بن علوان,Hassi Bin Alwan,split,حسي بن علوان - المخاسع,Hassi Bin Alwan - Al-Makhasa,حسي بن علوان,Hassi Bin Alwan,12,15
+النوازل,Al-Nawazil,split,النوازل - الحروره حصــه,Al-Nawazil - Al-Harura Hissa,النوازل,Al-Nawazil,7,10
+الميدان,Al-Midan,original,,,الميدان,Al-Midan,7,8
+يعاقبه,Yaaqaba,split,يعاقبه - الملاحطه,Yaaqaba - Al-malahituh,يعاقبه,Yaaqaba,6,7
+نجدالمعينه,Najd Al-Mu'aynah,split,نمره - نجدالمعينه,Nimrah - Najd Al-Mu'aynah,نجدالمعينه,Najd Al-Mu'aynah,10,16
+عسق,Asaq,split,عسق - مهلصه,Asaq - Mahlasah,عسق,Asaq,3,4
+الحروره حصــه,Al-Harura Hissa,split,النوازل - الحروره حصــه,Al-Nawazil - Al-Harura Hissa,الحروره حصه,Al-Harura Hissa,11,15
+مجريه,Majriya,split,مجريه - الصنيف,Majriya - Al-Sunayf,مجريه,Majriya,5,7
+الجروبة,Al-Jarouba,split,الجروبة - الدابوليا,Al-Jarouba - Al-Daboulia,الجروبة,Al-Jarouba,7,10
+شعب دعام,Sha'b Da'am,split,وادي الاحمر - شعب دعام,Wadi Al-Ahmar - Sha'b Da'am,شعب دعام,Sha'b Da'am,8,11
+الكدمه,Al-Kadmah,split,الكدمه - القوز,Al-Kadmah - Al-Qawz,الكدمه,Al-Kadmah,6,9
+حبوة الموينس,Habwah Al-Muwaynis,split,الغريف - حبوة الموينس,Al-Gharif - Habwah Al-Muwaynis,حبوة الموينس,Habwah Al-Muwaynis,12,18
+المخاء,Al-Mukha,split,المخاء - عبد القادر,Al-Mukha - 'Abd Al-Qadir,المخاء,Al-Mukha,6,8
+جبل العمري,Jabal Al-Amri,original,,,جبل العمري,Jabal Al-Amri,10,13
+ذاحيان,Dhahyan,split,الغيل - ذاحيان,Al-Ghayl - Dhahyan,ذاحيان,Dhahyan,6,7
+مشرفه,Mushrifa,split,بني دريغم - مشرفه,Bani Drigham - Mushrifa,مشرفه,Mushrifa,5,8
+الذراع,Al-Dhra',split,الردف - الذراع,Al-Radf - Al-Dhra',الذراع,Al-Dhra',6,8
+حنه العليا,Hanna Al-Ulya,split,حنه العليا - النوبه,Hanna Al-Ulya - Al-Nawba,حنه العليا,Hanna Al-Ulya,10,13
+بني حجاج,Bani Hajjaj,split,بني حجاج - الفقره,Bani Hajjaj - Al-Faqrah,بني حجاج,Bani Hajjaj,8,11
+الجرارى,Al-Jarari,split,جعاشي - الجرارى,Ja'ashi - Al-Jarari,الجرارى,Al-Jarari,7,9
+الصرم,Al-Sarim,split,القطين - الصرم,AL-Qateen - Al-Sarim,الصرم,Al-Sarim,5,8
+الجريب,Al-Jarib,split,الجريب - طوربصير,Al-Jarib - Turbasir,الجريب,Al-Jarib,6,8
+الميهال,al-Mihyal,split,وادي سعاده - الميهال,Wadi Sa'adah - al-Mihyal,الميهال,al-Mihyal,7,9
+النويبة,al-Nuwaybah,split,حاضيه - النويبة,Hadhiyah - al-Nuwaybah,النويبة,al-Nuwaybah,7,11
+ضاربة الحصب,Daribah Al-Hasab,split,الضيجه - ضاربة الحصب,Ad-Dhayjah - Daribah Al-Hasab,ضاربة الحصب,Daribah Al-Hasab,11,16
+الشقيراء,Al-Shuqayra,split,الشقيراء - مصران,Al-Shuqayra - Misran,الشقيراء,Al-Shuqayra,8,11
+ذي البرع - الكـدف,Thee Al-Bara-Al-Kadf,original,,,ذي البرع - الكدف,Thee Al-Bara-Al-Kadf,16,20
+الرباعنه,Al-Raba'nah,split,الرباعنه - الغابره,Al-Raba'nah - Al-Ghabirah,الرباعنه,Al-Raba'nah,8,11
+بني دريغم,Bani Drigham,split,بني دريغم - المحطه,Bani Drigham - Al-Mahatta,بني دريغم,Bani Drigham,9,12
+الكدمه,Al-Kadmah,original,,,الكدمه,Al-Kadmah,6,9
+الزهيرة,Al-Zuhaira,split,الزهيرة - المحطه البخارية,Al-Zuhaira - Steam Station,الزهيرة,Al-Zuhaira,7,10
+هيجه حصب زراع,Hejah Hasab Zira'a,split,الطوير - هيجه حصب زراع,Al-Tuwair - Hejah Hasab Zira'a,هيجه حصب زراع,Hejah Hasab Zira'a,13,18
+وادي بكير,Wadi Bakir,split,وادي بكير - الصابريه,Wadi Bakir - Al-Sabriya,وادي بكير,Wadi Bakir,9,10
+العويضه,Al-Awidah,split,الشبارة - العويضه,Al-Shabara - Al-Awidah,العويضه,Al-Awidah,7,9
+المقلب,Al-Maqlab,split,المقلب - الصناعه,Al-Maqlab - Al-Sina'ah,المقلب,Al-Maqlab,6,9
+مقدم راس,Muqaddam Ras,split,مقدم راس - القشايب,Muqaddam Ras - Al-Qashaib,مقدم راس,Muqaddam Ras,8,12
+السفالية,Al-Safaliyah,split,السفالية - مراعنة الوادي,Al-Safaliyah - Mara'inah Al-Wadi,السفالية,Al-Safaliyah,8,12
+القرية,Al-qariah,split,العقمه - القرية,Al-Aqmah - Al-qariah,القرية,Al-qariah,6,9
+الغوبقه,Al-Ghubaqah,split,الغوبقه - الردع,Al-Ghubaqah - Al-Rad',الغوبقه,Al-Ghubaqah,7,11
+الغرافي,Al-Gharrafi,split,الغرافي - الدخل,Al-Gharrafi - Al-Dakhil,الغرافي,Al-Gharrafi,7,11
+المزانده,Al-Mazanda,split,المزانده - المرقاب,Al-Mazanda - Al-Mirqab,المزانده,Al-Mazanda,8,10
+السفالية,Al-Safaliyah,split,السفالية - بلدالسيد,Al-Safaliyah - Balad Al-Sayyid,السفالية,Al-Safaliyah,8,12
+الازيود,Al-Azyoud,split,الازيود - الشعيب,Al-Azyoud - Al-Shu'ayb,الازيود,Al-Azyoud,7,9
+السويداء,Al-Suwayda',split,السويداء - السادحي,Al-Suwayda' - Al-Sadhi,السويداء,Al-Suwayda',8,11
+الدعام,Al-Da'am,split,رهبه - الدعام,Rahbah - Al-Da'am,الدعام,Al-Da'am,6,8
+الذنبه,Al-Dhanbah,split,المقلب - الذنبه,Al-Maqlab - Al-Dhanbah,الذنبه,Al-Dhanbah,6,10
+بيت القضيب,Bayt Al-Qadib,split,الادروس - بيت القضيب,Al-Adrous - Bayt Al-Qadib,بيت القضيب,Bayt Al-Qadib,10,13
+القفده,Al-Qafda,split,جعاشي - القفده,Ja'ashi - Al-Qafda,القفده,Al-Qafda,6,8
+المخاء,Al-Mukha,split,المخاء - العروك,Al-Mukha - Al-'Arouk,المخاء,Al-Mukha,6,8
+بني مليك,Bani Malik,split,بني مليك - ذي الجنان,Bani Malik - Dhi al-Jinan,بني مليك,Bani Malik,8,10
+الشعيب,Al-Shuaib,split,الشعيب - البريح,Al-Shuaib - Al-Barih,الشعيب,Al-Shuaib,6,9
+النقاحه,Al-Naqahah,split,المبذل - النقاحه,Al-Mabdhil - Al-Naqahah,النقاحه,Al-Naqahah,7,10
+الغيل,Al-Ghayl,split,الغيل - شط علي,Al-Ghayl - Shat Ali,الغيل,Al-Ghayl,5,8
+جبل الحكيمه,Jabal al-Hakimah,split,جبل الحكيمه - الجمينه,Jabal al-Hakimah - al-Jaminah,جبل الحكيمه,Jabal al-Hakimah,11,16
+بني حجاج,Bani Hajjaj,split,بني حجاج - العجل,Bani Hajjaj - Al-Ajal,بني حجاج,Bani Hajjaj,8,11
+الشبارة,Al-Shabara,split,الشبارة - العويضه,Al-Shabara - Al-Awidah,الشبارة,Al-Shabara,7,10
+وادي الموجع,Wadi Al-Muja',original,,,وادي الموجع,Wadi Al-Muja',11,13
+وادي بكير,Wadi Bakir,split,وادي بكير - سوق الحر,Wadi Bakir - Suq Al-Hur,وادي بكير,Wadi Bakir,9,10
+الدوش,Al-Doush,split,الدوش - الجورهه,Al-Doush - Al-Jawra,الدوش,Al-Doush,5,8
+محاطبه,Mahatabah,original,,,محاطبه,Mahatabah,6,9
+البواكر,Al-Bawakir,split,الشاذلية - البواكر,Al-Shadhiliyah - Al-Bawakir,البواكر,Al-Bawakir,7,10
+البيرك,al-Birk,split,جحزر - البيرك,Jahzar - al-Birk,البيرك,al-Birk,6,7
+شبيه,Shabih,split,شبيه - حزاز,Shabih - Hazaz,شبيه,Shabih,4,6
+الصباريه,Al-Sabariyyah,split,الحد - الصباريه,Al-Had - Al-Sabariyyah,الصباريه,Al-Sabariyyah,8,13
+وادي البير,Wadi Al-Bir,original,,,وادي البير,Wadi Al-Bir,10,11
+وادي هابة,Wadi Habah,split,الصنمه - وادي هابة,Al-Sanmah - Wadi Habah,وادي هابة,Wadi Habah,9,10
+المزاينة,Al-Mazayna,split,الزغبري - المزاينة,Al-Zaghbari - Al-Mazayna,المزاينة,Al-Mazayna,8,10
+الكدحه,Al-Kadha,split,الكدحه - العريق,Al-Kadha - Al-Areeq,الكدحه,Al-Kadha,6,8
+الصنمه,Al-Sunmah,split,الصنمه - النازود,Al-Sunmah - Al-Nazud,الصنمه,Al-Sunmah,6,9
+البراده,Al-Baradah,split,العريش - البراده,Al-Arish - Al-Baradah,البراده,Al-Baradah,7,10
+المدرج,Al-Madraj,split,وادي البير - المدرج,Wadi Al-Bir - Al-Madraj,المدرج,Al-Madraj,6,9
+حصيب القوبه,Hasib Al-Qubbah,split,حصيب القوبه - حصيب الحائط,Hasib Al-Qubbah - Hasib Al-Ha'it,حصيب القوبه,Hasib Al-Qubbah,11,15
+المقيصع,Al-Muqaysi',split,المقيصع - الشعب,Al-Muqaysi' - Al-Sha'b,المقيصع,Al-Muqaysi',7,11
+وادي موثب,Wadi Muthab,split,وادي موثب - الخراف,Wadi Muthab - Al-Kharaf,وادي موثب,Wadi Muthab,9,11
+مقدم راس,Muqaddam Ras,split,مقدم راس - الراس,Muqaddam Ras - Al-Ras,مقدم راس,Muqaddam Ras,8,12
+البرح الاحمر,Al-Barh Al-Ahmar,split,الاتيمه - البرح الاحمر,Al-Atima - Al-Barh Al-Ahmar,البرح الاحمر,Al-Barh Al-Ahmar,12,16
+القشعه,al-Qash'ah,original,,,القشعه,al-Qash'ah,6,10
+العريقه,Al-Ariqa,split,الدوش - العريقه,Al-Doush - Al-Ariqa,العريقه,Al-Ariqa,7,8
+النحر,Al-Nahr,split,الصنمه - النحر,Al-Sunmah - Al-Nahr,النحر,Al-Nahr,5,7
+النشيفه,An-Nashifa,split,النشيفه - الخرابه,An-Nashifa - Al-Kharaba,النشيفه,An-Nashifa,7,10
+السويهره,Al-Suwayhirah,split,السويهره - هيجة ضاوي,Al-Suwayhirah - Hijah Dhawi,السويهره,Al-Suwayhirah,8,13
+الحدبة,Al-Hadba,split,الغرافي - الحدبة,Al-Gharrafi - Al-Hadba,الحدبة,Al-Hadba,6,8
+النوازل,Al-Nawazil,split,النوازل - ذي خير,Al-Nawazil - Dhi Khayr,النوازل,Al-Nawazil,7,10
+الحقيبه,Al-Haqibah,split,وادي المعقم - الحقيبه,Wadi Al-Mu'aqam - Al-Haqibah,الحقيبه,Al-Haqibah,7,10
+تي الوادي,Ti al-Wadi,split,جبل الحكيمه - تي الوادي,Jabal al-Hakimah - Ti al-Wadi,تي الوادي,Ti al-Wadi,9,10
+الطوير,Al-Tuwair,split,الطوير - شعب البيرك,Al-Tuwair - Sha'ab Al-Birk,الطوير,Al-Tuwair,6,9
+الحجير,Al-Hujayr,split,الحد - الحجير,Al-Had - Al-Hujayr,الحجير,Al-Hujayr,6,9
+الحياجي,Al-Hayaji,split,الحياجي - الجراده,Al-Hayaji - Al-Jaradah,الحياجي,Al-Hayaji,7,9
+وادي المعقم,Wadi Al-Mu'aqam,split,وادي المعقم - الغول,Wadi Al-Mu'aqam - Al-Ghul,وادي المعقم,Wadi Al-Mu'aqam,11,15
+حاضيه,Hadhiyah,split,حاضيه - الشكلة,Hadhiyah - al-Shaklah,حاضيه,Hadhiyah,5,8
+النجارة,An-Najara,split,العفيرة - النجارة,Al-Afira - An-Najara,النجارة,An-Najara,7,9
+الخضراء,Al-Khadra,original,,,الخضراء,Al-Khadra,7,9
+بيت سلوين,Bayt Salwin,split,الدوش - بيت سلوين,Al-Doush - Bayt Salwin,بيت سلوين,Bayt Salwin,9,11
+السفالية,Al-Safaliyah,split,السفالية - جهاد,Al-Safaliyah - Jihad,السفالية,Al-Safaliyah,8,12
+المخاء,Al-Mukha,split,المخاء - القاهرة,Al-Mukha - Al-Qahirah,المخاء,Al-Mukha,6,8
+بني دريغم,Bani Durayghim,split,بني دريغم - العامره,Bani Durayghim - Al-Amirah,بني دريغم,Bani Durayghim,9,14
+بني حجاج,Bani Hajjaj,split,بني حجاج - الجاب,Bani Hajjaj - Al-Jab,بني حجاج,Bani Hajjaj,8,11
+المراعنه,Al-Mara'inah,split,السفالية - المراعنه,Al-Safaliyah - Al-Mara'inah,المراعنه,Al-Mara'inah,8,12
+الكدمه,Al-Kadmah,split,الكدمه - الزوين,Al-Kadmah - Al-Zuwain,الكدمه,Al-Kadmah,6,9
+عسق,Asaq,split,عسق - المسلوم,Asaq - Al-Masloum,عسق,Asaq,3,4
+بلد الساده,Balad Al-Sadah,split,الحدابيه - بلد الساده,Al-Hadabiyah - Balad Al-Sadah,بلد الساده,Balad Al-Sadah,10,14
+الخويفه,Al-Khuwayfah,split,المقلب - الخويفه,Al-Maqlab - Al-Khuwayfah,الخويفه,Al-Khuwayfah,7,12
+الرجحه,Al-Rajhah,split,الرجحه - دارتميم,Al-Rajhah - Dar Tamim,الرجحه,Al-Rajhah,6,9
+محاطبه,Mahatabah,split,محاطبه - الجريجر,Mahatabah - Al-Jurayjir,محاطبه,Mahatabah,6,9
+القشعه,Al-Qash'ah,original,,,القشعه,Al-Qash'ah,6,10
+الزعاترالسفلى,Al-Za'atir Al-Sufla,split,السفالية - الزعاترالسفلى,Al-Safaliyah - Al-Za'atir Al-Sufla,الزعاترالسفلى,Al-Za'atir Al-Sufla,13,19
+المعامرة,Al-Ma'amrah,split,المعامرة - الساحلي,Al-Ma'amrah - Al-Sahili,المعامرة,Al-Ma'amrah,8,11
+الزغبري,Al-Zaghbari,split,الزغبري - القوز,Al-Zaghbari - Al-Qawz,الزغبري,Al-Zaghbari,7,11
+شعبو,Sha'bu,split,شعبو - المخرج,Sha'bu - Al-Makhraj,شعبو,Sha'bu,4,6
+الصفي,Al-Safi,split,العقده - الصفي,Al-Uqda - Al-Safi,الصفي,Al-Safi,5,7
+الادروس,Al-Adrous,split,الادروس - المودقه,Al-Adrous - Al-Mawdaqah,الادروس,Al-Adrous,7,9
+جرجوح,Jarjuh,split,الحجج - جرجوح,Al-Hujaj - Jarjuh,جرجوح,Jarjuh,5,6
+حنه العليا,Hannah Al-Ulya,split,حنه العليا - القطع,Hannah Al-Ulya - Al-Qata',حنه العليا,Hannah Al-Ulya,10,14
+وادي بكير,Wadi Bakir,original,,,وادي بكير,Wadi Bakir,9,10
+دارالقعموس,Dar al-Qa'mus,split,السويهره - دارالقعموس,Al Suwayhira - Dar al-Qa'mus,دارالقعموس,Dar al-Qa'mus,10,13
+الشقيراء,Al-Shuqayra,split,الشقيراء - الكعوب الاسفل,Al-Shuqayra - Lower Ka'ub,الشقيراء,Al-Shuqayra,8,11
+الهاملي,Al-Hamli,split,الهاملي - الكدره,Al-Hamli - Al-Kadrah,الهاملي,Al-Hamli,7,8
+حسى الصوفى,Hassi Al-Sufi,split,يختل - حسى الصوفى,Yakhtal - Hassi Al-Sufi,حسى الصوفى,Hassi Al-Sufi,10,13
+العوجاء,Al-Awjaa,split,جريزه - العوجاء,Jariza - Al-Awjaa,العوجاء,Al-Awjaa,7,8
+الحدقة,Al-Hadqa,split,الازيود - الحدقة,Al-Azyoud - Al-Hadqa,الحدقة,Al-Hadqa,6,8
+الشرف,Al-Sharaf,split,وادي الشط - الشرف,Wadi Al-Shatt - Al-Sharaf,الشرف,Al-Sharaf,5,9
+المقيصع,Al-Muqaysi',split,المقيصع - الرجيم,Al-Muqaysi' - Al-Rajim,المقيصع,Al-Muqaysi',7,11
+النوازل,Al-Nawazil,split,النوازل - الاملاك,Al-Nawazil - Al-Amlak,النوازل,Al-Nawazil,7,10
+هيجة الحجر,Heijah Al-Hajar,split,شبيه - هيجة الحجر,Shabih - Heijah Al-Hajar,هيجة الحجر,Heijah Al-Hajar,10,15
+النوازل,Al-Nawazil,split,النوازل - نجد قسيم,Al-Nawazil - Najd Qasim,النوازل,Al-Nawazil,7,10
+الردف,Al-Radf,original,,,الردف,Al-Radf,5,7
+وادي المعقم,Wadi Al-Mu'aqam,split,وادي المعقم - الحقيبه,Wadi Al-Mu'aqam - Al-Haqibah,وادي المعقم,Wadi Al-Mu'aqam,11,15
+الحجفه,Al-Hajfah,split,الغيل - الحجفه,Al-Ghayl - Al-Hajfah,الحجفه,Al-Hajfah,6,9
+بوميه,Bumiya,split,بوميه - العدينه,Bumiya - Al-Adina,بوميه,Bumiya,5,6
+وادي موثب,Wadi Muthab,split,وادي موثب - حجينة,Wadi Muthab - Hajinah,وادي موثب,Wadi Muthab,9,11
+بلدالسيد,Balad Al-Sayyid,split,السفالية - بلدالسيد,Al-Safaliyah - Balad Al-Sayyid,بلدالسيد,Balad Al-Sayyid,8,15
+المقيبرة,Al-Muqaybira,split,هوب  الوقيع - المقيبرة,Hub Al-Waqi' - Al-Muqaybira,المقيبرة,Al-Muqaybira,8,12
+الكويحه,Al-Kuwayhah,split,الكويحه - القحيفة,Al-Kuwayhah - Al-Qahifah,الكويحه,Al-Kuwayhah,7,11
+الحجاجيه,Al-Hajjajiya,split,جعاشي - الحجاجيه,Ja'ashi - Al-Hajjajiya,الحجاجيه,Al-Hajjajiya,8,12
+بني مليك,Bani Malik,split,بني مليك - الضوضحـي,Bani Malik - al-Dawdhahi,بني مليك,Bani Malik,8,10
+حاضيه,Hadhiyah,split,حاضيه - شعب الكليب,Hadhiyah - Shaab Al-Kulaib,حاضيه,Hadhiyah,5,8
+قرية المحنش,Qaryat Al-Mahanish,split,الطوير - قرية المحنش,Al-Tuwair - Qaryat Al-Mahanish,قرية المحنش,Qaryat Al-Mahanish,11,18
+رهبه,Rahbah,split,رهبه - الحروره,Rahbah - Al-Harura,رهبه,Rahbah,4,6
+النزيهه,Al-Nazihah,split,العفيرة - النزيهه,Al-Afirah - Al-Nazihah,النزيهه,Al-Nazihah,7,10
+النوازل,Al-Nawazil,split,النوازل - الداخله,Al-Nawazil - Al-Dakhilah,النوازل,Al-Nawazil,7,10
+الجمعة,Al-Jum'ah,split,الجمعة - المحل,Al-Jum'ah - Al-Mahal,الجمعة,Al-Jum'ah,6,9
+البياضيه,Al-Bayadiyah,split,الحياجي - البياضيه,Al-Hayaji - Al-Bayadiyah,البياضيه,Al-Bayadiyah,8,12
+الشبارة,Al-Shabarah,split,الشبارة - الكبيسة,Al-Shabarah - Al-Kabisah,الشبارة,Al-Shabarah,7,11
+المعاقم,Al-Ma'aqim,split,الازيود - المعاقم,Al-Azyoud - Al-Ma'aqim,المعاقم,Al-Ma'aqim,7,10
+جعاشي,Ja'ashi,split,جعاشي - القاردة,Ja'ashi - Al-Qarda,جعاشي,Ja'ashi,5,7
+شعب الظافر,Sha'b Al-Dhafir,split,العارضه - شعب الظافر,Al-'Arida - Sha'b Al-Dhafir,شعب الظافر,Sha'b Al-Dhafir,10,15
+الغريف,Al-Gharif,original,,,الغريف,Al-Gharif,6,9
+غيل الحاضنه,Ghayl Al-Hadina,split,غيل الحاضنه - العشه,Ghayl Al-Hadina - Al-Asha,غيل الحاضنه,Ghayl Al-Hadina,11,15
+العفيرة,Al-Afira,split,العفيرة - الركيب,Al-Afira - Ar-Rakib,العفيرة,Al-Afira,7,8
+العكده,Al-'Akdah,split,النوازل - العكده,Al-Nawazil - Al-'Akdah,العكده,Al-'Akdah,6,9
+العارضه,Al-'Arida,split,العارضه - القرية السفلى,Al-'Arida - Al-Qarya Al-Sufla,العارضه,Al-'Arida,7,9
+وادي سعاده,Wadi Sa'adah,split,وادي سعاده - شعب الاحمر,Wadi Sa'adah - Sha'b Al-Ahmar,وادي سعاده,Wadi Sa'adah,10,12
+المخاء,Al-Mukha,split,المخاء - الشاذلي,Al-Mukha - Al-Shadhili,المخاء,Al-Mukha,6,8
+الزقيرية,Al-Zaqiriya,split,الغرافي - الزقيرية,Al-Gharrafi - Al-Zaqiriya,الزقيرية,Al-Zaqiriya,8,11
+شعب الحزابي,Sha'ab al-Hazabi,split,وادي سعاده - شعب الحزابي,Wadi Sa'adah - Sha'ab al-Hazabi,شعب الحزابي,Sha'ab al-Hazabi,11,16
+الغرافي,Al-Gharrafi,split,الغرافي - جبل عكى,Al-Gharrafi - Jabal Aka,الغرافي,Al-Gharrafi,7,11
+الشبارة,Al-Shabarah,split,الشبارة - النجيبة,Al-Shabarah - Al-Najibah,الشبارة,Al-Shabarah,7,11
+بني عامر,Bani Amer,split,بني عامر - جبل الصبري,Bani Amer - Jabal al-Sabri,بني عامر,Bani Amer,8,9
+الحنيني,al-Hunayni,split,الجبيه - الحنيني,al-Jubayyah - al-Hunayni,الحنيني,al-Hunayni,7,10
+الغيبر,Al-Ghaybar,split,الدوش - الغيبر,Al-Doush - Al-Ghaybar,الغيبر,Al-Ghaybar,6,10
+الطهبله,Al-Tahbalah,split,المقيصع - الطهبله,Al-Muqaysi' - Al-Tahbalah,الطهبله,Al-Tahbalah,7,11
+القحيزه,al-Qahizah,split,القحيزه - حاضيه العليا,al-Qahizah - Hadhiya al-Ulya,القحيزه,al-Qahizah,7,10
+عسق,Asaq,split,عسق - الزبه,Asaq - Al-Zubah,عسق,Asaq,3,4
+القطنه,Al-Qatna,split,القطنه - البياضيه,Al-Qatna - Al-Bayadiya,القطنه,Al-Qatna,6,8
+الخريشيبه,Al-Kharishiba,split,حنه العليا - الخريشيبه,Hanna Al-Ulya - Al-Kharishiba,الخريشيبه,Al-Kharishiba,9,13
+عبيله,Abilah,split,مقدم راس - عبيله,Muqaddam Ras - Abilah,عبيله,Abilah,5,6
+الداهره,Al-Dahira,split,الكويحه - الداهره,Al-Kuwayhah - Al-Dahira,الداهره,Al-Dahira,7,9
+الحدبه السفلى,Al-Hadbah Al-Sufla,split,الحدابيه - الحدبه السفلى,Al-Hadabiyah - Al-Hadbah Al-Sufla,الحدبه السفلى,Al-Hadbah Al-Sufla,13,18
+مخرور,Makhrur,split,بني مليك - مخرور,Bani Malik - Makhrur,مخرور,Makhrur,5,7
+حاضيه,Hadhiyah,split,حاضيه - ماغرة,Hadhiyah - Magharah,حاضيه,Hadhiyah,5,8
+نوبة عامر,Nawbat Amer,original,,,نوبة عامر,Nawbat Amer,9,11
+قناهو بن علي,Qanahu Bin Ali,split,قناهو بن علي - بوكرة قناهو,Qanahu Bin Ali - Buqra Qanahu,قناهو بن علي,Qanahu Bin Ali,12,14
+الضيجه,Al-Dhayjah,split,الضيجه - العوده,Al-Dhayjah - Al-'Awdah,الضيجه,Al-Dhayjah,6,10
+الكدمه,Al-Kadmah,split,الكدمه - قرى الحاج,Al-Kadmah - Qura Al-Hajj,الكدمه,Al-Kadmah,6,9
+وادي سعاده,Wadi Sa'adah,split,وادي سعاده - الميهال,Wadi Sa'adah - al-Mihyal,وادي سعاده,Wadi Sa'adah,10,12
+الضيجه,Ad-Dhayjah,split,الضيجه - ضاربة الحصب,Ad-Dhayjah - Daribah Al-Hasab,الضيجه,Ad-Dhayjah,6,10
+وادي بكير,Wadi Bakir,split,وادي بكير - الهقيف,Wadi Bakir - Al-Haqif,وادي بكير,Wadi Bakir,9,10
+الصـويره - جهمه,Al-Sawerah-Jahmh,original,,,الصويره - جهمه,Al-Sawerah-Jahmh,14,16
+الزغبري,Al-Zaghbari,split,الزغبري - الهديلة,Al-Zaghbari - Al-Hadila,الزغبري,Al-Zaghbari,7,11
+الصنمه,Al-Sanmah,split,الصنمه - الهجره,Al-Sanmah - Al-Hijrah,الصنمه,Al-Sanmah,6,9
+الوادي,Al-Wadi,split,المقلب - الوادي,Al-Maqlab - Al-Wadi,الوادي,Al-Wadi,6,7
+العراعر,Al-Ara'ir,split,العراعر - القحيفـه,Al-Ara'ir - Al-Qahifa,العراعر,Al-Ara'ir,7,9
+الشبارة,Al-Shabarah,split,الشبارة - الطور,Al-Shabarah - Al-Tur,الشبارة,Al-Shabarah,7,11
+صوارحين,Sawarihin,split,العراعر - صوارحين,Al-Ara'ir - Sawarihin,صوارحين,Sawarihin,7,9
+الشمليه,Al-Shamaliyah,split,العقمه - الشمليه,Al-Aqmah - Al-Shamaliyah,الشمليه,Al-Shamaliyah,7,13
+الوحيز,Al-Wahiz,split,الوحيز - الرقيصه,Al-Wahiz - Al-Raqisa,الوحيز,Al-Wahiz,6,8
+السويهره,Al Suwayhira,split,السويهره - العوينه,Al Suwayhira - Al-Awaina,السويهره,Al Suwayhira,8,12
+العفيرة,Al-Afira,split,العفيرة - الاكمة,Al-Afira - Al-Akma,العفيرة,Al-Afira,7,8
+سميقنه,Samiqna,split,جريزه - سميقنه,Jariza - Samiqna,سميقنه,Samiqna,6,7
+الر حاب,Al-Rahab,split,الكربه - الر حاب,Al-Karbah - Al-Rahab,الر حاب,Al-Rahab,7,8
+العشيرة,Al-Ashira,split,العشيرة - عوده,Al-Ashira - Awda,العشيرة,Al-Ashira,7,9
+الكويحه,Al-Kuwayhah,split,الكويحه - المبراع,Al-Kuwayhah - Al-Mabra',الكويحه,Al-Kuwayhah,7,11
+العنصبة,Al-'Ansaba,split,الجمعة - العنصبة,Al-Jum'ah - Al-'Ansaba,العنصبة,Al-'Ansaba,7,10
+الحقيره,Al-Haqira,split,جسر رسيان - الحقيره,Rasian Bridge - Al-Haqira,الحقيره,Al-Haqira,7,9
+حاضيه,Hadhiyah,split,حاضيه - الزجا جية,Hadhiyah - al-Zajajiyah,حاضيه,Hadhiyah,5,8
+وادي البير,Wadi Al-Bir,split,وادي البير - ريمه,Wadi Al-Bir - Rima,وادي البير,Wadi Al-Bir,10,11
+البياضيه,Al-Bayadiya,split,القطنه - البياضيه,Al-Qatna - Al-Bayadiya,البياضيه,Al-Bayadiya,8,11
+جحزر,Jahzar,split,جحزر - المحل,Jahzar - al-Mahal,جحزر,Jahzar,4,6
+شط عقاب,Shat 'Uqab,split,المقلب - شط عقاب,Al-Maqlab - Shat 'Uqab,شط عقاب,Shat 'Uqab,7,10
+القلب,Al-Qalb,split,محاطبه - القلب,Mahatabah - Al-Qalb,القلب,Al-Qalb,5,7
+العقمه,Al-Aqmah,split,العقمه - المزحاجه,Al-Aqmah - Al-Mazhajah,العقمه,Al-Aqmah,6,8
+الغوشه,Al-Ghusha,split,المقيصع - الغوشه,Al-Muqaysi' - Al-Ghusha,الغوشه,Al-Ghusha,6,9
+الخومله,Al-Khumla,split,الغيل - الخومله,Al-Ghayl - Al-Khumla,الخومله,Al-Khumla,7,9
+جحزر,Jahzar,split,جحزر - الجريز,Jahzar - Al-Jurayz,جحزر,Jahzar,4,6
+الطوير,Al-Tuwair,split,الطوير - الحجرة,Al-Tuwair - Al-Hajrah,الطوير,Al-Tuwair,6,9
+النوبه,Al-Nuba,split,بوميه - النوبه,Bumiya - Al-Nuba,النوبه,Al-Nuba,6,7
+القداعمه,Al-Qada'imah,split,جبل الحكيمه - القداعمه,Jabal Al-Hakimah - Al-Qada'imah,القداعمه,Al-Qada'imah,8,12
+الحنه,Al-Hanna,split,العقمه - الحنه,Al-Aqmah - Al-Hanna,الحنه,Al-Hanna,5,8
+العراعر,Al-Ara'ir,split,الشاذلية - العراعر,Al-Shadhiliyah - Al-Ara'ir,العراعر,Al-Ara'ir,7,9
+بني حجاج,Bani Hajjaj,split,بني حجاج - الجراديه,Bani Hajjaj - Al-Jaradiyah,بني حجاج,Bani Hajjaj,8,11
+الكديحة,Al-Kadiha,split,الكديحة - المشقر,Al-Kadiha - Al-Mushaqqar,الكديحة,Al-Kadiha,7,9
+الحياجي,Al-Hayaji,split,الحياجي - الحمرة,Al-Hayaji - Al-Hamra,الحياجي,Al-Hayaji,7,9
+المقيصع,Al-Muqaysi',split,المقيصع - المطهف,Al-Muqaysi' - Al-Mutahhaf,المقيصع,Al-Muqaysi',7,11
+جعاشي,Ja'ashi,split,جعاشي - المقاصع,Ja'ashi - Al-Maqasa',جعاشي,Ja'ashi,5,7
+المليطات,Al-Malitat,split,محاطبه - المليطات,Mahataba - Al-Malitat,المليطات,Al-Malitat,8,10
+الهبيله,Al-Habilah,split,الرجحه - الهبيله,Al-Rajhah - Al-Habilah,الهبيله,Al-Habilah,7,10
+الميثاق,Al-Mithaq,split,بني الحكم - الميثاق,Bani Al-Hakam - Al-Mithaq,الميثاق,Al-Mithaq,7,9
+مقبنه,Maqbanah,split,مقبنه - العفه,Maqbanah - Al-Afa,مقبنه,Maqbanah,5,8
+رداع - المصنع,Rada-Al-Masnna',original,,,رداع - المصنع,Rada-Al-Masnna',13,15
+الصـويره - حمـر,Al-Sawerah-Hamr,original,,,الصويره - حمر,Al-Sawerah-Hamr,13,15
+الغيل,Al-Ghayl,split,الغيل - الضويحه,Al-Ghayl - Al-Dhuwayha,الغيل,Al-Ghayl,5,8
+القضاة,Al-Qudat,split,العارضه - القضاة,Al-'Arida - Al-Qudat,القضاة,Al-Qudat,6,8
+الهيجة,Al-Hejah,split,بني علي - الهيجة,Bani Ali - Al-Hejah,الهيجة,Al-Hejah,6,8
+وادي مكسب,Wadi Makasab,split,وادي مكسب - المهيني,Wadi Makasab - Al-Muhayni,وادي مكسب,Wadi Makasab,9,12
+الجريجر,Al-Jurayjir,split,محاطبه - الجريجر,Mahatabah - Al-Jurayjir,الجريجر,Al-Jurayjir,7,11
+الذنيبه,Al-Dhanibah,split,الكويحه - الذنيبه,Al-Kuwayhah - Al-Dhanibah,الذنيبه,Al-Dhanibah,7,11
+هداره,Haddara,split,هداره - العموقة,Haddara - Al-Amuqa,هداره,Haddara,5,7
+العقمه,Al-Aqmah,split,العقمه - حصب الحويج,Al-Aqmah - Hasab Al-Huwayj,العقمه,Al-Aqmah,6,8
+شط الحامي,Shat Al-Hami,split,الغيل - شط الحامي,Al-Ghayl - Shat Al-Hami,شط الحامي,Shat Al-Hami,9,12
+عقبه,Aqabah,split,الحييمة - عقبه,Al-Haymah - Aqabah,عقبه,Aqabah,4,6
+يعاقبه,Yaaqaba,split,يعاقبه - الحذله,Yaaqaba - Al-Hadhla,يعاقبه,Yaaqaba,6,7
