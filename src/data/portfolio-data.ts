@@ -124,9 +124,10 @@ export const portfolioData: PortfolioData = {
   // About Section
   about: {
     bio: [
-      "I design and automate data systems for humanitarian and development programs operating in complex, high-risk environments."
-      "Over the past 10+ years, I’ve built MEL frameworks, ETL pipelines, and decision-support dashboards that improved governance, accelerated reporting, and supported portfolios exceeding $60M in funded delivery."
-      "I’ve led analytics and evidence systems across organizations such as JSI, ADRA Yemen, and Polish Humanitarian Action — producing insights that directly strengthened donor confidence and funding outcomes."    ],
+      "I design and automate data systems for humanitarian and development programs operating in complex, high-risk environments.",
+      "Over the past 10+ years, I’ve built MEL frameworks, ETL pipelines, and decision-support dashboards that improved governance, accelerated reporting, and supported portfolios exceeding $60M in funded delivery.",
+      "I’ve led analytics and evidence systems across organizations such as JSI, ADRA Yemen, and Polish Humanitarian Action — producing insights that directly strengthened donor confidence and funding outcomes.",
+    ],
     profileImage: "https://fadisaif-ba.github.io/FadiSaif.jpg",
     yearsOfExperience: 10,
     completedProjects: 25,
