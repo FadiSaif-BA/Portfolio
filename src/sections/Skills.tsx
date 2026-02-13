@@ -26,7 +26,7 @@ export function Skills() {
   const categoryGradients: Record<string, string> = {
     'Data & Analytics': 'from-blue-500 to-cyan-500',
     'Business Intelligence': 'from-violet-500 to-purple-500',
-    'MEL Systems': 'from-orange-500 to-amber-500',
+    'Business, MEL and Management': 'from-orange-500 to-amber-500',
     'Programming': 'from-green-500 to-emerald-500',
   };
 
@@ -43,7 +43,7 @@ export function Skills() {
       border: 'border-violet-200',
       hoverBg: 'hover:bg-violet-100 hover:border-violet-300 hover:shadow-violet-100',
     },
-    'MEL Systems': {
+    'Business, MEL and Management': {
       bg: 'bg-orange-50',
       text: 'text-orange-700',
       border: 'border-orange-200',
@@ -60,7 +60,7 @@ export function Skills() {
   const categoryIcons: Record<string, string> = {
     'Data & Analytics': '📊',
     'Business Intelligence': '📈',
-    'MEL Systems': '🎯',
+    'Business, MEL and Management': '🎯',
     'Programming': '💻',
   };
 
