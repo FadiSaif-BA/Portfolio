@@ -165,13 +165,13 @@ export function About() {
               <StatItem
                 icon={<TrendingUp className="w-6 h-6" />}
                 value={about.portfolioValue}
-                label="Portfolio Supported"
-                isNumeric={false}
+                label="Million US$ Portfolio Supported"
+                isNumeric={true}
               />
               <StatItem
                 icon={<Award className="w-6 h-6" />}
-                value={35+}
-                label="Million $ Secured"
+                value={about.fundSecured}
+                label="Million US$ Secured"
               />
             </div>
           </div>
