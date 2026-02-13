@@ -63,7 +63,7 @@ export function getProjectPreview(project: Project): string {
 
 export interface Skill {
   name: string;
-  level: number; // 1-100
+  level?: number; // optional, no longer displayed
   category: string;
 }
 

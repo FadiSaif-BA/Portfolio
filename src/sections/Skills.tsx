@@ -1,43 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { getSkillsByCategory } from '@/data/portfolio-data';
 
-interface SkillBarProps {
-  name: string;
-  level: number;
-  index: number;
-  isVisible: boolean;
-}
-
-function SkillBar({ name, level, index, isVisible }: SkillBarProps) {
-  const [width, setWidth] = useState(0);
-
-  useEffect(() => {
-    if (isVisible) {
-      const timer = setTimeout(() => {
-        setWidth(level);
-      }, index * 100);
-      return () => clearTimeout(timer);
-    }
-  }, [isVisible, level, index]);
-
-  return (
-    <div className="group">
-      <div className="flex justify-between items-center mb-2">
-        <span className="font-medium text-slate-700 group-hover:text-blue-600 transition-colors">
-          {name}
-        </span>
-        <span className="text-sm text-slate-500 font-medium">{level}%</span>
-      </div>
-      <div className="h-2.5 bg-slate-100 rounded-full overflow-hidden">
-        <div
-          className="h-full bg-gradient-to-r from-blue-500 to-violet-500 rounded-full transition-all duration-1000 ease-out"
-          style={{ width: `${width}%` }}
-        />
-      </div>
-    </div>
-  );
-}
-
 export function Skills() {
   const sectionRef = useRef<HTMLElement>(null);
   const [isVisible, setIsVisible] = useState(false);
@@ -60,11 +23,38 @@ export function Skills() {
     return () => observer.disconnect();
   }, []);
 
-  const categoryColors: Record<string, string> = {
+  const categoryGradients: Record<string, string> = {
     'Data & Analytics': 'from-blue-500 to-cyan-500',
     'Business Intelligence': 'from-violet-500 to-purple-500',
     'MEL Systems': 'from-orange-500 to-amber-500',
     'Programming': 'from-green-500 to-emerald-500',
+  };
+
+  const categoryChipStyles: Record<string, { bg: string; text: string; border: string; hoverBg: string }> = {
+    'Data & Analytics': {
+      bg: 'bg-blue-50',
+      text: 'text-blue-700',
+      border: 'border-blue-200',
+      hoverBg: 'hover:bg-blue-100 hover:border-blue-300 hover:shadow-blue-100',
+    },
+    'Business Intelligence': {
+      bg: 'bg-violet-50',
+      text: 'text-violet-700',
+      border: 'border-violet-200',
+      hoverBg: 'hover:bg-violet-100 hover:border-violet-300 hover:shadow-violet-100',
+    },
+    'MEL Systems': {
+      bg: 'bg-orange-50',
+      text: 'text-orange-700',
+      border: 'border-orange-200',
+      hoverBg: 'hover:bg-orange-100 hover:border-orange-300 hover:shadow-orange-100',
+    },
+    'Programming': {
+      bg: 'bg-emerald-50',
+      text: 'text-emerald-700',
+      border: 'border-emerald-200',
+      hoverBg: 'hover:bg-emerald-100 hover:border-emerald-300 hover:shadow-emerald-100',
+    },
   };
 
   const categoryIcons: Record<string, string> = {
@@ -72,6 +62,13 @@ export function Skills() {
     'Business Intelligence': '📈',
     'MEL Systems': '🎯',
     'Programming': '💻',
+  };
+
+  const defaultChipStyle = {
+    bg: 'bg-slate-50',
+    text: 'text-slate-700',
+    border: 'border-slate-200',
+    hoverBg: 'hover:bg-slate-100 hover:border-slate-300 hover:shadow-slate-100',
   };
 
   return (
@@ -104,39 +101,45 @@ export function Skills() {
 
         {/* Skills Grid */}
         <div className="grid md:grid-cols-2 gap-8">
-          {Object.entries(skillsByCategory).map(([category, skills], categoryIndex) => (
-            <div
-              key={category}
-              className={`bg-slate-50 rounded-2xl p-8 border border-slate-100 transition-all duration-700 ${
-                isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
-              }`}
-              style={{ transitionDelay: `${categoryIndex * 150}ms` }}
-            >
-              {/* Category header */}
-              <div className="flex items-center gap-4 mb-8">
-                <div className={`w-14 h-14 rounded-xl bg-gradient-to-br ${categoryColors[category] || 'from-blue-500 to-violet-500'} flex items-center justify-center text-2xl shadow-lg`}>
-                  {categoryIcons[category] || '•'}
-                </div>
-                <div>
-                  <h3 className="text-xl font-bold text-slate-900">{category}</h3>
-                  <p className="text-sm text-slate-500">{skills.length} technologies</p>
-                </div>
-              </div>
+          {Object.entries(skillsByCategory).map(([category, skills], categoryIndex) => {
+            const chipStyle = categoryChipStyles[category] || defaultChipStyle;
 
-              {/* Skills list */}
-              <div className="space-y-5">
-                {skills.map((skill, skillIndex) => (
-                  <SkillBar
-                    key={skill.name}
-                    name={skill.name}
-                    level={skill.level}
-                    index={categoryIndex * skills.length + skillIndex}
-                    isVisible={isVisible}
-                  />
-                ))}
+            return (
+              <div
+                key={category}
+                className={`bg-slate-50/80 backdrop-blur-sm rounded-2xl p-8 border border-slate-100 transition-all duration-700 hover:shadow-lg hover:border-slate-200 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
+                  }`}
+                style={{ transitionDelay: `${categoryIndex * 150}ms` }}
+              >
+                {/* Category header */}
+                <div className="flex items-center gap-4 mb-6">
+                  <div className={`w-14 h-14 rounded-xl bg-gradient-to-br ${categoryGradients[category] || 'from-blue-500 to-violet-500'} flex items-center justify-center text-2xl shadow-lg`}>
+                    {categoryIcons[category] || '•'}
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold text-slate-900">{category}</h3>
+                    <p className="text-sm text-slate-500">{skills.length} technologies</p>
+                  </div>
+                </div>
+
+                {/* Skill chips */}
+                <div className="flex flex-wrap gap-2.5">
+                  {skills.map((skill, skillIndex) => (
+                    <span
+                      key={skill.name}
+                      className={`inline-flex items-center px-4 py-2 rounded-full text-sm font-medium border transition-all duration-300 cursor-default shadow-sm ${chipStyle.bg} ${chipStyle.text} ${chipStyle.border} ${chipStyle.hoverBg} hover:shadow-md hover:-translate-y-0.5 ${isVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-90'
+                        }`}
+                      style={{
+                        transitionDelay: `${categoryIndex * 150 + skillIndex * 60}ms`,
+                      }}
+                    >
+                      {skill.name}
+                    </span>
+                  ))}
+                </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
 
         {/* Additional info */}
