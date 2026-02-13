@@ -116,7 +116,7 @@ export const portfolioData: PortfolioData = {
     tagline: "Data Systems and Analytics specialist with 10+ years of experience designing performance measurement frameworks, data pipelines, and decision-support reporting for large-scale humanitarian and development programs. Skilled in Python, SQL, ETL workflows, and business intelligence tools.",
     email: "fadi.saif@outlook.com",
     location: "Aden, Yemen",
-    avatar: "https://media.licdn.com/dms/image/v2/C4E03AQHPS062sG4cdw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1650129271405?e=1772668800&v=beta&t=90jYFkuIXTBetc7-LK87aEzOwiEKV-LmxafTMFV5uPE",
+    avatar: "https://fadisaif-ba.github.io/FadiSaif.jpg",
     resumeUrl: "https://github.com/FadiSaif-BA/Portfolio/blob/master/Resume_FadiSaif.pdf",
   },
 
@@ -127,7 +127,7 @@ export const portfolioData: PortfolioData = {
       "My expertise spans Python, SQL, ETL workflows, and business intelligence tools, with a proven track record of improving operational efficiency, strengthening data governance, and generating insights supporting portfolios exceeding $60M in delivery and evidence-based strategic planning.",
       "I have led MEL systems for major organizations including JSI Research and Training Institute, Polish Humanitarian Action, and ADRA Yemen, and Delivered Contributions in the UN World Food Program, delivering analytical evidence that has secured over $60M in funding across multiple award cycles."
     ],
-    profileImage: "https://media.licdn.com/dms/image/v2/C4E03AQHPS062sG4cdw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1650129271405?e=1772668800&v=beta&t=90jYFkuIXTBetc7-LK87aEzOwiEKV-LmxafTMFV5uPE",
+    profileImage: "https://fadisaif-ba.github.io/FadiSaif.jpg",
     yearsOfExperience: 10,
     completedProjects: 25,
     portfolioValue: "$60M+",
