@@ -243,7 +243,7 @@ export const portfolioData: PortfolioData = {
     { name: "Assessments", level: 85, category: "Business, MEL and Management" },
     { name: "Problem Solving", level: 85, category: "Business, MEL and Management"},
     { name: "Critical Thinking", level: 85, category: "Business, MEL and Management"},
-    { name: "Communication", level: 85, category: "Business, MEL and Management"}
+    { name: "Communication", level: 85, category: "Business, MEL and Management"},
 
     // Programming & Tools
     { name: "C# / .NET", level: 80, category: "Programming" },
