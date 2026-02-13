@@ -114,7 +114,7 @@ export const portfolioData: PortfolioData = {
   personal: {
     name: "Fadi Saif",
     title: "Data Systems & Analytics Specialist",
-    tagline: "Data Systems and Analytics specialist with 10+ years of experience designing performance measurement frameworks, data pipelines, and decision-support reporting for large-scale humanitarian and development programs. Skilled in Python, SQL, ETL workflows, and business intelligence tools.",
+    tagline: "Data Systems and Analytics specialist with 10+ years of experience. I build data systems that help humanitarian programs make faster, funded decisions. Skilled in Python, SQL, ETL workflows, and business intelligence tools.",
     email: "fadi.saif@outlook.com",
     location: "Aden, Yemen",
     avatar: "https://fadisaif-ba.github.io/FadiSaif.jpg",
