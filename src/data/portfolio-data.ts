@@ -237,10 +237,13 @@ export const portfolioData: PortfolioData = {
     { name: "Performance Reporting", level: 88, category: "Business Intelligence" },
 
     // MEL Systems & Research
-    { name: "KPI Frameworks", level: 95, category: "MEL Systems" },
-    { name: "Data Quality Assurance", level: 90, category: "MEL Systems" },
-    { name: "Evaluation Design", level: 88, category: "MEL Systems" },
-    { name: "Assessments", level: 85, category: "MEL Systems" },
+    { name: "KPI Frameworks", level: 95, category: "Business, MEL and Management" },
+    { name: "Data Quality Assurance", level: 90, category: "Business, MEL and Management" },
+    { name: "Evaluation Design", level: 88, category: "Business, MEL and Management" },
+    { name: "Assessments", level: 85, category: "Business, MEL and Management" },
+    { name: "Problem Solving", level: 85, category: "Business, MEL and Management"},
+    { name: "Critical Thinking", level: 85, category: "Business, MEL and Management"},
+    { name: "Communication", level: 85, category: "Business, MEL and Management"}
 
     // Programming & Tools
     { name: "C# / .NET", level: 80, category: "Programming" },
@@ -253,8 +256,8 @@ export const portfolioData: PortfolioData = {
   // Social Links
   social: [
     { platform: "LinkedIn", url: "https://linkedin.com/in/fadisaif", icon: "linkedin" },
-    { platform: "Portfolio", url: "https://fadisaif-ba.github.io", icon: "globe" },
-    { platform: "GitHub", url: "https://github.com", icon: "github" },
+    { platform: "Portfolio", url: "https://fadisaif-ba.github.io/Portfolio", icon: "globe" },
+    { platform: "GitHub", url: "https://github.com/FadiSaif-BA", icon: "github" },
   ],
 };
 
