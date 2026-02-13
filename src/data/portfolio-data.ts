@@ -91,7 +91,7 @@ export interface PortfolioData {
     profileImage: string;
     yearsOfExperience: number;
     completedProjects: number;
-    portfolioValue: string;
+    portfolioValue: number;
     fundSecured: number;
   };
 
