@@ -196,7 +196,7 @@ export const portfolioData: PortfolioData = {
       description: "Led Health Facility Assessment of 100 facilities with fragility/context analytics informing adaptive programming for USAID's MIHR Project.",
       thumbnail: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=600&fit=crop",
       previewImage: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200&h=800&fit=crop",
-      tags: ["Data Analysis", "Power BI", "KPI Frameworks", "MEL Systems"],
+      tags: ["Data Analysis", "Power BI", "KPI Frameworks", "Business, MEL and Management Systems"],
       liveUrl: "#",
       githubUrl: "#",
       featured: false,
