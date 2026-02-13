@@ -131,6 +131,7 @@ export const portfolioData: PortfolioData = {
     yearsOfExperience: 10,
     completedProjects: 25,
     portfolioValue: "$60M+",
+    
   },
 
   // ============================================
