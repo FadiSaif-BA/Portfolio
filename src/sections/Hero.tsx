@@ -65,7 +65,7 @@ export function Hero() {
             </h2>
 
             <div className="flex flex-wrap gap-2 justify-center lg:justify-start mb-6">
-              {['SQL', 'Python', 'ETL Automation', 'Power BI', 'KPI Systems', 'Decision Support Analytics'].map((skill) => (
+              {['Problem Solving', 'Critical Analysis', 'Communication', 'SQL', 'Python', 'ETL Automation', 'Power BI', 'KPI Systems', 'Decision Support Analytics'].map((skill) => (
                 <span
                   key={skill}
                   className="px-3 py-1 text-xs font-medium rounded-full bg-slate-100 text-slate-600"
