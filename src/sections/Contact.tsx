@@ -121,8 +121,8 @@ export function Contact() {
             Let's Work Together
           </h2>
           <p className="text-slate-500 max-w-2xl mx-auto">
-            Looking for a data systems specialist who delivers measurable operational and donor-impact?
-            Reach out — I’m open to senior analytics and MEL leadership opportunities.
+            Looking for a data systems specialist who delivers measurable operational impact?
+            Reach out — I’m open to senior analytics opportunities.
           </p>
           <div className="w-20 h-1 bg-gradient-to-r from-blue-600 to-violet-600 rounded-full mx-auto mt-4" />
         </div>
