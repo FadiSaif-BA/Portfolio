@@ -170,7 +170,7 @@ export function About() {
               />
               <StatItem
                 icon={<Award className="w-6 h-6" />}
-                value={60}
+                value={35+}
                 label="Million $ Secured"
               />
             </div>
