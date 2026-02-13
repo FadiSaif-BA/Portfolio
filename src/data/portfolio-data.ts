@@ -124,10 +124,9 @@ export const portfolioData: PortfolioData = {
   // About Section
   about: {
     bio: [
-      "I am a  Data Systems and Analytics specialist with 10+ years of experience designing performance measurement frameworks, data pipelines, and decision-support reporting for large-scale humanitarian and development programs in complex operating environments.",
-      "My expertise spans Python, SQL, ETL workflows, and business intelligence tools, with a proven track record of improving operational efficiency, strengthening data governance, and generating insights supporting portfolios exceeding $60M in delivery and evidence-based strategic planning.",
-      "I have led MEL systems for major organizations including JSI Research and Training Institute, Polish Humanitarian Action, and ADRA Yemen, and Delivered Contributions in the UN World Food Program, delivering analytical evidence that has secured over $60M in funding across multiple award cycles."
-    ],
+      "I design and automate data systems for humanitarian and development programs operating in complex, high-risk environments."
+      "Over the past 10+ years, I’ve built MEL frameworks, ETL pipelines, and decision-support dashboards that improved governance, accelerated reporting, and supported portfolios exceeding $60M in funded delivery."
+      "I’ve led analytics and evidence systems across organizations such as JSI, ADRA Yemen, and Polish Humanitarian Action — producing insights that directly strengthened donor confidence and funding outcomes."    ],
     profileImage: "https://fadisaif-ba.github.io/FadiSaif.jpg",
     yearsOfExperience: 10,
     completedProjects: 25,
@@ -152,7 +151,7 @@ export const portfolioData: PortfolioData = {
       githubUrl: "https://github.com/FadiSaif-BA/Transliteration-Model.git",
       featured: true,
       methodology: "Trained the model on 70,000+ entries of geographical data using sequence-to-sequence architecture.",
-      results: "Achieved 93% validated accuracy and 70% exact match score. Reduced manual transliteration workload by 60%.",
+      results: "Achieved 93% validated accuracy and 70% exact match score. Reduced manual transliteration workload by 60% and approved by human reviewer 90% of instances.",
     },
     {
       id: "2",
