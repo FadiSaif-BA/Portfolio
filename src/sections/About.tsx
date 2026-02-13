@@ -165,7 +165,7 @@ export function About() {
               <StatItem
                 icon={<TrendingUp className="w-6 h-6" />}
                 value={about.portfolioValue}
-                label="Portfolio Managed"
+                label="Portfolio Supported"
                 isNumeric={false}
               />
               <StatItem
