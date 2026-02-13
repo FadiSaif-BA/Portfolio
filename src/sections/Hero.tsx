@@ -146,7 +146,7 @@ export function Hero() {
                 
                 <div className="absolute -bottom-4 -left-4 px-4 py-2 bg-white rounded-xl shadow-lg border border-slate-100 animate-float" style={{ animationDelay: '1s' }}>
                   <span className="text-2xl font-bold text-violet-600">$60M+</span>
-                  <span className="text-xs text-slate-500 block">Portfolio</span>
+                  <span className="text-xs text-slate-500 block">Supported Portfolio</span>
                 </div>
               </div>
             </div>
