@@ -92,6 +92,7 @@ export interface PortfolioData {
     yearsOfExperience: number;
     completedProjects: number;
     portfolioValue: string;
+    fundSecured: number;
   };
 
   // Projects
