@@ -130,7 +130,8 @@ export const portfolioData: PortfolioData = {
     profileImage: "https://fadisaif-ba.github.io/FadiSaif.jpg",
     yearsOfExperience: 10,
     completedProjects: 25,
-    portfolioValue: "$60M+",
+    portfolioValue: 60,
+    fundSecured: 35
     
   },
 
