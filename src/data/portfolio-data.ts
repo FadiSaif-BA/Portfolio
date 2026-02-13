@@ -117,7 +117,7 @@ export const portfolioData: PortfolioData = {
     email: "fadi.saif@outlook.com",
     location: "Aden, Yemen",
     avatar: "https://media.licdn.com/dms/image/v2/C4E03AQHPS062sG4cdw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1650129271405?e=1772668800&v=beta&t=90jYFkuIXTBetc7-LK87aEzOwiEKV-LmxafTMFV5uPE",
-    resumeUrl: "#",
+    resumeUrl: "https://github.com/FadiSaif-BA/Portfolio/blob/master/Resume_FadiSaif.pdf",
   },
 
   // About Section
