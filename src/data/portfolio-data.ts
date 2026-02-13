@@ -185,7 +185,7 @@ export const portfolioData: PortfolioData = {
       previewImage: "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=1200&h=800&fit=crop",
       tags: ["Statistical Analysis", "Python", "SPSS", "Research Design", "Impact Evaluation"],
       liveUrl: "#",
-      githubUrl: "#",
+      githubUrl: "https://github.com/FadiSaif-BA/ComparativeIrrigationStudy.git",
       featured: false,
       methodology: "Utilized t-tests and Cohen's effect size metrics to compare cost and water efficiency across irrigation methods.",
       results: "Proved 58.4% reduction in farming costs and 85.5% decrease in water consumption. Identified critical technology-crop incompatibility.",
