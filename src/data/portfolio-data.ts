@@ -117,7 +117,7 @@ export const portfolioData: PortfolioData = {
     tagline: "Data Systems and Analytics specialist with 10+ years of experience. I build data systems that help humanitarian programs make faster, funded decisions. Skilled in Python, SQL, ETL workflows, and business intelligence tools.",
     email: "fadi.saif@outlook.com",
     location: "Aden, Yemen",
-    avatar: "https://fadisaif-ba.github.io/FadiSaif.jpg",
+    avatar: "https://fadisaif-ba.github.io/FadiSaif_Office.png",
     resumeUrl: "https://github.com/FadiSaif-BA/Portfolio/blob/master/Resume_FadiSaif.pdf",
   },
 
